@@ -22,8 +22,11 @@ export function SplashScreen() {
         </div>
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-7xl font-bold font-headline drop-shadow-2xl animate-fade-in-up animate-text-gradient" style={{ animationDelay: '0.2s' }}>
-            Blu Koffee Studios
+            Welcome to Blu Koffee Studios
           </h1>
+          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80 drop-shadow-lg animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+            Where we capture moments.
+          </p>
         </div>
     </div>
   );
