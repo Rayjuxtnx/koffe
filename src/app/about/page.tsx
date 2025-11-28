@@ -43,33 +43,50 @@ export default function AboutPage() {
             </div>
             <div className="relative container mx-auto max-w-5xl py-16 md:py-24 px-4">
                 <div className="bg-card/50 backdrop-blur-sm p-8 md:p-12 rounded-lg">
-                    <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
-                        <div className="md:col-span-2 relative aspect-square max-w-sm mx-auto md:max-w-none">
-                            <Image
-                                src={profileImage.imageUrl}
-                                alt="The photographer"
-                                fill
-                                className="object-cover rounded-lg shadow-lg"
-                                sizes="(max-width: 768px) 90vw, 40vw"
-                                data-ai-hint={profileImage.imageHint}
-                            />
-                        </div>
-                        <div className="md:col-span-3">
-                            <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center gap-4">
-                                <Coffee className="h-10 w-10 text-primary" /> The Story of Blu Koffee
-                            </h2>
-                            <h3 className="text-xl text-muted-foreground mb-6 font-headline">From Early Mornings to Lasting Moments.</h3>
-                            <div className="space-y-4 text-lg text-foreground/80 leading-relaxed">
-                                <p>
-                                The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
-                                </p>
-                                <p>
-                                The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
-                                </p>
-                            </div>
+                    <div className="text-center">
+                        <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center justify-center gap-4">
+                            <Coffee className="h-10 w-10 text-primary" /> The Story of Blu Koffee
+                        </h2>
+                        <h3 className="text-xl text-muted-foreground mb-6 font-headline">From Early Mornings to Lasting Moments.</h3>
+                        <div className="space-y-4 text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
+                            <p>
+                            The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
+                            </p>
+                            <p>
+                            The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
+                            </p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        {/* About Me Section */}
+        <div className="bg-background">
+            <div className="container mx-auto max-w-6xl py-16 md:py-24 px-4">
+            <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+                <div className="relative aspect-square max-w-md mx-auto md:max-w-none">
+                <Image
+                    src={profileImage.imageUrl}
+                    alt="The photographer"
+                    fill
+                    className="object-cover rounded-lg shadow-lg"
+                    sizes="(max-width: 768px) 90vw, 45vw"
+                    data-ai-hint={profileImage.imageHint}
+                />
+                </div>
+                <div className="bg-card p-8 rounded-lg">
+                <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4">
+                    A Story in Every Frame
+                </h2>
+                <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+                    I'm a freelance photographer driven by a passion for visual storytelling. My work focuses on capturing authentic moments, whether it's the raw emotion of a portrait or the serene beauty of a landscape.
+                </p>
+                <p className="text-lg text-foreground/80 leading-relaxed">
+                    As the founder of Blu Koffee Studios, I bring the same dedication to every project, ensuring your story is told with creativity and heart.
+                </p>
+                </div>
+            </div>
             </div>
         </div>
 
