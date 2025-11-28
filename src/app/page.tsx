@@ -77,8 +77,18 @@ export default async function HomePage() {
       </div>
 
       {/* About Me Section */}
-      <div className="bg-card">
-        <div className="container mx-auto max-w-6xl py-16 md:py-24 px-4">
+      <div className="relative overflow-hidden">
+        <div className="absolute inset-0">
+            <Image
+                src={profileImage.imageUrl}
+                alt="The photographer, blurred in the background"
+                fill
+                className="object-cover blur-md scale-110"
+                data-ai-hint={profileImage.imageHint}
+            />
+            <div className="absolute inset-0 bg-background/70" />
+        </div>
+        <div className="relative container mx-auto max-w-6xl py-16 md:py-24 px-4">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="relative aspect-square max-w-md mx-auto md:max-w-none">
               <Image
@@ -90,11 +100,11 @@ export default async function HomePage() {
                 data-ai-hint={profileImage.imageHint}
               />
             </div>
-            <div>
+            <div className="bg-card/50 backdrop-blur-sm p-8 rounded-lg">
               <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4">
                 A Story in Every Frame
               </h2>
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
                 I'm a freelance photographer driven by a passion for visual storytelling. My work focuses on capturing authentic moments, whether it's the raw emotion of a portrait or the serene beauty of a landscape.
               </p>
               <Button asChild>
