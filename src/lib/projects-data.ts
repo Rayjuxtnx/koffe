@@ -27,9 +27,31 @@ const getImageData = (id: string, alt: string): ProjectImage => {
         console.error(`Image with id "${id}" not found.`);
         return { src: 'https://picsum.photos/seed/error/800/600', width: 800, height: 600, alt: 'Error: Image not found', hint: 'error' };
     }
-    const urlParts = image.imageUrl.split('/');
-    const width = parseInt(urlParts[urlParts.length - 2]);
-    const height = parseInt(urlParts[urlParts.length - 1]);
+    
+    let width = 800;
+    let height = 600;
+
+    try {
+        const url = new URL(image.imageUrl);
+        if (url.hostname === 'images.unsplash.com') {
+            const w = url.searchParams.get('w');
+            if (w) {
+                width = parseInt(w, 10);
+            }
+        } else if (url.hostname === 'picsum.photos') {
+            const parts = url.pathname.split('/');
+            width = parseInt(parts[parts.length - 2], 10);
+            height = parseInt(parts[parts.length - 1], 10);
+        }
+    } catch(e) {
+      // Ignore invalid urls
+    }
+
+    // Unsplash images from the generator have a width but not height, so we calculate it.
+    if (image.imageUrl.includes('unsplash')) {
+      height = Math.round(width * (5/4)); // Assuming 4:5 aspect ratio for cover images
+    }
+
 
     return {
         src: image.imageUrl,
