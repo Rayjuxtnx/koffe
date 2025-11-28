@@ -18,7 +18,7 @@ export default function HomePage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsStoryVisible(false);
-    }, 8000); // The text will be visible for 8 seconds
+    }, 10000); // The text will be visible for 10 seconds
 
     return () => clearTimeout(timer);
   }, []);
