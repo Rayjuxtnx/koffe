@@ -33,7 +33,7 @@
     {
       "id": "portrait-2",
       "description": "A wedding couple embracing.",
-      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wedding couple"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "street-2",
       "description": "A street scene in Nakuru, Kenya.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWt1cnUlMjBzdHJlZXR8ZW58MHx8fHwxNzY0MzYzMzMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nakuru street"
     },
     {
