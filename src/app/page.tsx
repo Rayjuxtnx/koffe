@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Coffee } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { projects } from '@/lib/projects-data';
 import { PhotoCard } from '@/components/photo-card';
 import { Button } from '@/components/ui/button';
@@ -13,11 +13,11 @@ export default function HomePage() {
   const featuredProjects = projects.slice(0, 4);
   const heroImage = PlaceHolderImages.find(img => img.id === 'street-1');
   const profileImage = PlaceHolderImages.find(img => img.id === 'profile-photo');
-  const [isStoryVisible, setIsStoryVisible] = useState(true);
+  const [isStoryVisible, setIsStoryVisible] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsStoryVisible(false);
+      setIsStoryVisible(true);
     }, 10000); // The text will be visible for 10 seconds
 
     return () => clearTimeout(timer);
@@ -56,28 +56,6 @@ export default function HomePage() {
           </Button>
         </div>
       </div>
-
-       {/* Animated Story Section */}
-      <div className={`relative overflow-hidden transition-all duration-1000 ease-in-out ${isStoryVisible ? 'max-h-screen' : 'max-h-0'}`}>
-            <div className={`relative container mx-auto max-w-5xl py-16 md:py-24 px-4 transition-opacity duration-700 ${isStoryVisible ? 'opacity-100' : 'opacity-0'}`}>
-                <div className="bg-card/50 backdrop-blur-sm p-8 md:p-12 rounded-lg">
-                    <div className="text-center">
-                        <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center justify-center gap-4">
-                            <Coffee className="h-10 w-10 text-primary" /> The Story of Blu Koffee
-                        </h2>
-                        <h3 className="text-xl text-muted-foreground mb-6 font-headline">From Early Mornings to Lasting Moments.</h3>
-                        <div className="space-y-4 text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
-                            <p>
-                            The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
-                            </p>
-                            <p>
-                            The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
       {/* Featured Work Section */}
       <div className="container mx-auto px-4 py-16 md:py-24">
