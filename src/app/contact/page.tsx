@@ -1,5 +1,5 @@
 import { ContactForm } from '@/components/contact-form';
-import { Instagram, Mail, Linkedin } from 'lucide-react';
+import { Instagram, Mail, Linkedin, Phone } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
@@ -15,6 +15,13 @@ const contactMethods = [
         description: 'Best for project inquiries and detailed questions.',
         href: 'mailto:blukoffee1@gmail.com',
         label: 'blukoffee1@gmail.com'
+    },
+    {
+        Icon: Phone,
+        title: 'Give us a Call',
+        description: 'For urgent matters and direct conversation.',
+        href: 'tel:0795107535',
+        label: '0795107535'
     },
     {
         Icon: Instagram,
@@ -58,7 +65,7 @@ export default function ContactPage() {
                    <div>
                        <h3 className="font-semibold text-lg">{title}</h3>
                        <p className="text-muted-foreground text-sm mb-1">{description}</p>
-                       <Link href={href} target={href.startsWith('http') || href.startsWith('mailto') ? '_blank' : undefined} className="text-sm text-primary hover:underline">
+                       <Link href={href} target={href.startsWith('http') || href.startsWith('mailto') || href.startsWith('tel') ? '_blank' : undefined} className="text-sm text-primary hover:underline">
                             {label}
                        </Link>
                    </div>
