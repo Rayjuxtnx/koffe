@@ -26,7 +26,7 @@ export function Header() {
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Camera className="h-6 w-6 text-primary" />
-            <span className="font-bold font-headline text-lg">Aperture</span>
+            <span className="font-bold font-headline text-lg">Blu Koffee Studios</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             {navLinks.map(({ href, label }) => (
@@ -56,7 +56,7 @@ export function Header() {
                 <div className="flex flex-col h-full py-6">
                     <Link href="/" className="mb-8 flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
                         <Camera className="h-6 w-6 text-primary" />
-                        <span className="font-bold font-headline text-lg">Aperture</span>
+                        <span className="font-bold font-headline text-lg">Blu Koffee Studios</span>
                     </Link>
                     <nav className="flex flex-col gap-6">
                         {navLinks.map(({ href, label }) => (

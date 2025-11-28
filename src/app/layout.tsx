@@ -19,8 +19,8 @@ const fontBody = Lato({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Aperture',
-    template: '%s | Aperture',
+    default: 'Blu Koffee Studios',
+    template: '%s | Blu Koffee Studios',
   },
   description: 'A minimal, cinematic photography portfolio.',
   icons: [{ rel: 'icon', url: '/favicon.ico' }],

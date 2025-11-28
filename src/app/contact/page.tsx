@@ -13,22 +13,22 @@ const contactMethods = [
         Icon: Mail,
         title: 'Send an Email',
         description: 'Best for project inquiries and detailed questions.',
-        href: 'mailto:hello@aperture.com',
-        label: 'hello@aperture.com'
+        href: 'mailto:blukoffee1@gmail.com',
+        label: 'blukoffee1@gmail.com'
     },
     {
         Icon: Instagram,
         title: 'Direct Message',
         description: 'For quick questions and to see my latest work.',
         href: '#',
-        label: '@aperture'
+        label: '@blukoffeestudios'
     },
     {
         Icon: Linkedin,
         title: 'Connect on LinkedIn',
         description: 'For professional networking and collaborations.',
         href: '#',
-        label: 'Aperture Photography'
+        label: 'Blu Koffee Studios'
     }
 ]
 
