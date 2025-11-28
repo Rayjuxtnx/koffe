@@ -3,7 +3,7 @@
     {
       "id": "profile-photo",
       "description": "A profile picture of the photographer.",
-      "imageUrl": "https://images.unsplash.com/photo-1635349090262-431052479144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaG90b2dyYXBoZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQzNDc5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "photographer portrait"
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "landscape-3",
       "description": "Aurora borealis over a snowy landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "northern lights"
     },
     {
@@ -33,25 +33,25 @@
     {
       "id": "portrait-2",
       "description": "A wedding couple embracing.",
-      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wedding couple"
     },
     {
       "id": "portrait-3",
       "description": "A child laughing in a field of wildflowers.",
-      "imageUrl": "https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0MzQwOTcwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0MzQwOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child smiling"
     },
     {
       "id": "street-1",
       "description": "A busy street corner in Nairobi at night, with glowing city lights.",
-      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi city"
     },
     {
       "id": "street-2",
       "description": "A street scene in Nakuru, Kenya.",
-      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nakuru street"
     },
     {
