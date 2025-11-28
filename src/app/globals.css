@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    --background: 220 14% 12%;
+    --background: 220 14% 16%;
     --foreground: 210 40% 98%;
-    --card: 220 14% 16%;
+    --card: 220 14% 20%;
     --card-foreground: 210 40% 98%;
     --popover: 220 14% 12%;
     --popover-foreground: 210 40% 98%;
@@ -40,9 +40,9 @@
   }
 
   .dark {
-    --background: 220 14% 12%;
+    --background: 220 14% 16%;
     --foreground: 210 40% 98%;
-    --card: 220 14% 16%;
+    --card: 220 14% 20%;
     --card-foreground: 210 40% 98%;
     --popover: 220 14% 12%;
     --popover-foreground: 210 40% 98%;
@@ -87,6 +87,14 @@
   .animate-fade-in-up {
     animation: fadeInUp 0.75s ease-out forwards;
   }
+  .animate-text-gradient {
+    background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--foreground)), hsl(var(--primary)));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-gradient 4s ease-in-out infinite;
+  }
 }
 
 @keyframes fadeIn {
@@ -107,4 +115,10 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes text-gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
