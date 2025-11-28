@@ -5,18 +5,22 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
 
-export function PhotoCard({ project, onClick, index, isLink = false }: { project: Project; onClick?: () => void; index: number, isLink?: boolean }) {
-  const CardContent = (
+export function PhotoCard({ project, onClick, index }: { project: Project; onClick?: () => void; index: number }) {
+
+  return (
     <div
-      className="group relative overflow-hidden rounded-lg shadow-xl bg-card"
-      style={{ animationDelay: `${index * 100}ms`}}
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick?.()}
+      className="group cursor-pointer aspect-[4/5] animate-fade-in-up relative overflow-hidden rounded-lg shadow-xl bg-card"
+      style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
       aria-label={`View project: ${project.title}`}
     >
       <Image
         src={project.coverImage.src}
         alt={project.coverImage.alt}
-        width={project.coverImage.width}
-        height={project.coverImage.height}
+        fill
         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
         data-ai-hint={project.coverImage.hint}
@@ -26,27 +30,6 @@ export function PhotoCard({ project, onClick, index, isLink = false }: { project
         <h3 className="text-xl font-bold font-headline text-white drop-shadow-md">{project.title}</h3>
         <p className="text-sm text-gray-200">{project.category}</p>
       </div>
-    </div>
-  );
-
-  if (isLink) {
-    return (
-      <Link href={`/portfolio/${project.slug}`} className="block aspect-[4/5] animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}>
-        {CardContent}
-      </Link>
-    );
-  }
-
-  return (
-    <div
-      onClick={onClick}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick?.()}
-      className="cursor-pointer aspect-[4/5] animate-fade-in-up"
-      style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
-    >
-      {CardContent}
     </div>
   );
 }
