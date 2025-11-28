@@ -3,7 +3,7 @@
     {
       "id": "profile-photo",
       "description": "A profile picture of the photographer.",
-      "imageUrl": "https://images.unsplash.com/photo-1565884280295-98eb83e41c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMG1hbnxlbnwwfHx8fDE3NjQzNTkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMG1hbnxlbnwwfHx8fDE3NjQzNTkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "photographer portrait"
     },
     {
@@ -39,7 +39,7 @@
     {
       "id": "portrait-3",
       "description": "A birthday cake with lit candles.",
-      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "birthday cake"
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": "gallery-p1-1",
       "description": "A happy dog.",
-      "imageUrl": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8ZG9nfGVufDB8fHx8MTc2NDM1NzkzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8ZG9nfGVufDB8fHx8MTc2NDM1NzkzOXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "dog"
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "gallery-s1-1",
       "description": "A shot of Nairobi traffic from a high-rise building.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi traffic"
     },
     {
