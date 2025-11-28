@@ -21,6 +21,14 @@ export default function AboutPage() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'street-1');
   const featuredProjects = projects.slice(0, 3);
   
+  const [isStoryVisible, setIsStoryVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+        setIsStoryVisible(true);
+    }, 500); // Short delay for animation
+    return () => clearTimeout(timer);
+  }, []);
 
   if (!profileImage || !heroImage) {
     // Fallback or error handling if the image is not found
@@ -64,18 +72,18 @@ export default function AboutPage() {
         {/* About Me Section */}
         <div className="bg-background">
             <div className="container mx-auto max-w-6xl py-16 md:py-24 px-4">
-            <div className="grid md:grid-cols-3 gap-12 md:gap-16 items-center">
-                <div className="relative aspect-square md:col-span-2">
+            <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
+                <div className="relative aspect-[4/5] md:col-span-2 rounded-lg overflow-hidden shadow-lg">
                 <Image
                     src={profileImage.imageUrl}
                     alt="The photographer"
                     fill
-                    className="object-cover rounded-lg shadow-lg"
-                    sizes="(max-width: 768px) 90vw, 60vw"
+                    className="object-cover"
+                    sizes="(max-width: 768px) 90vw, 40vw"
                     data-ai-hint={profileImage.imageHint}
                 />
                 </div>
-                <div className="bg-card p-8 rounded-lg">
+                <div className="md:col-span-3">
                 <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4">
                     A Story in Every Frame
                 </h2>
