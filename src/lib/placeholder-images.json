@@ -3,7 +3,7 @@
     {
       "id": "profile-photo",
       "description": "A profile picture of the photographer.",
-      "imageUrl": "https://images.unsplash.com/photo-1702065613008-b419a830f635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhJTIwYmxhY2slMjBtYW4lMjBzZWxmaWUlMjBwaG90b3xlbnwwfHx8fDE3NjQzNTU1NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1565884280295-98eb83e41c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMG1hbnxlbnwwfHx8fDE3NjQzNTkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "photographer portrait"
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "landscape-3",
       "description": "Aurora borealis over a snowy landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "northern lights"
     },
     {
@@ -62,20 +62,20 @@
     },
     {
       "id": "gallery-l1-1",
-      "description": "Detail shot of the canyon rock formations.",
-      "imageUrl": "https://images.unsplash.com/photo-1467693068421-3a2b8d01faf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb2NrJTIwZm9ybWF0aW9ufGVufDB8fHx8MTc2NDI3NTg5Nnww&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "rock formation"
-    },
-    {
-      "id": "gallery-l1-2",
       "description": "A portrait of a black man.",
       "imageUrl": "https://images.unsplash.com/photo-1629201984508-60fdc3bb81b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhJTIwYmxhY2slMjBtYW4lMjB8ZW58MHx8fHwxNzY0MzU4MjA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "black man"
     },
     {
+      "id": "gallery-l1-2",
+      "description": "Wide shot of the valley floor.",
+      "imageUrl": "https://images.unsplash.com/photo-1565038918648-b3537c385133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2YWxsZXklMjBmbG9vcnxlbnwwfHx8fDE3NjQzNTkxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "valley floor"
+    },
+    {
       "id": "gallery-p1-1",
       "description": "A happy dog.",
-      "imageUrl": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8ZG9nfGVufDB8fHx8MTc2NDM1NzkzOXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8ZG9nfGVufDB8fHx8MTc2NDM1NzkzOXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dog"
     },
     {
@@ -87,13 +87,13 @@
     {
       "id": "gallery-s1-1",
       "description": "A shot of Nairobi traffic from a high-rise building.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi traffic"
     },
     {
       "id": "gallery-s1-2",
       "description": "The skyline of Nairobi during the day.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi skyline"
     },
     {
