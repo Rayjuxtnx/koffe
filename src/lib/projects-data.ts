@@ -64,18 +64,18 @@ const getImageData = (id: string, alt: string): ProjectImage => {
 
 export const projects: Project[] = [
   {
-    slug: 'canyon-light',
-    title: 'Canyon Light',
+    slug: 'rift-valley-vista',
+    title: 'Rift Valley Vista',
     category: 'Landscapes',
-    shortDescription: 'The last light of day paints the canyon walls in gold.',
-    fullDescription: 'Captured during a stormy sunset in the deserts of Utah. The light broke through the clouds for only a few precious seconds, creating a dramatic and unforgettable scene. This series explores the interplay of light and shadow on ancient rock formations.',
-    date: 'October 2023',
-    location: 'Utah, USA',
+    shortDescription: 'Sweeping views of the Great Rift Valley at sunset.',
+    fullDescription: 'This shot was taken overlooking the Great Rift Valley near Naivasha, Kenya. The vast, dramatic landscape is a testament to the raw beauty of the African continent. This series aims to capture the scale and majesty of this natural wonder.',
+    date: 'January 2024',
+    location: 'Naivasha, Kenya',
     equipment: 'Sony A7R IV | 24-70mm f/2.8 GM',
-    coverImage: getImageData('landscape-1', 'Golden hour light over a vast canyon.'),
+    coverImage: getImageData('landscape-1', 'A view of the Great Rift Valley from a high vantage point.'),
     galleryImages: [
-        getImageData('gallery-l1-1', 'Detail shot of the canyon rock formations.'),
-        getImageData('gallery-l1-2', 'Wide shot of the canyon from a different angle.')
+        getImageData('gallery-l1-1', 'Detail shot of the valley escarpment.'),
+        getImageData('gallery-l1-2', 'Wide shot of the valley floor.')
     ],
   },
   {
