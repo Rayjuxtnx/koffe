@@ -6,7 +6,7 @@ import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Logo } from '@/components/logo';
 
 const navLinks = [
@@ -20,6 +20,43 @@ const navLinks = [
 export function Header() {
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showTagline, setShowTagline] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [isScrollingUp, setIsScrollingUp] = useState(false);
+
+  useEffect(() => {
+    let taglineTimer: NodeJS.Timeout;
+    if (showTagline) {
+      taglineTimer = setTimeout(() => {
+        setShowTagline(false);
+      }, 5000);
+    }
+    return () => clearTimeout(taglineTimer);
+  }, [showTagline]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Scrolling down
+        setShowTagline(false);
+        setIsScrollingUp(false);
+      } else {
+        // Scrolling up
+        if (!isScrollingUp && currentScrollY < lastScrollY) {
+            setShowTagline(true);
+        }
+        setIsScrollingUp(true);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY, isScrollingUp]);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -43,6 +80,13 @@ export function Header() {
               </Link>
             ))}
           </nav>
+        </div>
+        <div className="flex-1 items-center justify-center hidden md:flex">
+             {showTagline && (
+                 <div className="text-sm text-muted-foreground animate-fade-in">
+                    Where We Capture Moments
+                 </div>
+             )}
         </div>
         <div className="flex flex-1 items-center justify-end">
            <div className="md:hidden">
@@ -74,6 +118,9 @@ export function Header() {
                         </Link>
                         ))}
                     </nav>
+                    <div className="mt-8 text-sm text-muted-foreground animate-fade-in">
+                        Where We Capture Moments
+                    </div>
                 </div>
               </SheetContent>
             </Sheet>
