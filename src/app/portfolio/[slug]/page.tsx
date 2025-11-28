@@ -67,7 +67,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       <div className="container mx-auto max-w-4xl -mt-16 md:-mt-24 relative z-10 px-4 pb-16 md:pb-24">
         <div className="bg-card/80 backdrop-blur-sm p-6 md:p-8 rounded-t-lg">
-          <Link href="/" className="inline-flex items-center gap-2 text-sm text-primary mb-4 transition-opacity hover:opacity-80">
+          <Link href="/portfolio" className="inline-flex items-center gap-2 text-sm text-primary mb-4 transition-opacity hover:opacity-80">
             <ArrowLeft size={16} />
             Back to Portfolio
           </Link>

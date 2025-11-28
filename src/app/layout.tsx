@@ -40,7 +40,7 @@ export default function RootLayout({
           fontBody.variable
         )}
       >
-        <div className="relative flex min-h-screen flex-col">
+        <div className="relative flex min-h-dvh flex-col">
           <Header />
           <main className="flex-1 animate-fade-in">{children}</main>
           <Footer />
