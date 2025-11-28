@@ -11,7 +11,7 @@ export type ProjectImage = {
 export type Project = {
   slug: string;
   title: string;
-  category: 'Portraits' | 'Landscapes' | 'Street';
+  category: 'Portraits' | 'Landscapes' | 'Street' | 'Weddings';
   shortDescription: string;
   fullDescription: string;
   date: string;
@@ -120,15 +120,15 @@ export const projects: Project[] = [
     galleryImages: [],
   },
   {
-    slug: 'painted-faces',
-    title: 'Painted Faces',
-    category: 'Portraits',
-    shortDescription: 'Exploring identity through color and form.',
-    fullDescription: 'A studio project in collaboration with a makeup artist. Each portrait is an exploration of character and emotion, using the face as a canvas. The bold colors and abstract patterns are designed to evoke a feeling rather than a specific identity.',
+    slug: 'timeless-vows',
+    title: 'Timeless Vows',
+    category: 'Weddings',
+    shortDescription: 'Capturing the intimate moments of a lifelong promise.',
+    fullDescription: 'A wedding is a collection of fleeting, beautiful moments. This series focuses on capturing the raw emotion and quiet connection between the couple, preserving the story of their day in a timeless, cinematic style.',
     date: 'September 2023',
-    location: 'Studio',
+    location: 'Nairobi, Kenya',
     equipment: 'Canon R5 | 85mm f/1.2L',
-    coverImage: getImageData('portrait-2', 'A woman with striking face paint in a studio setting.'),
+    coverImage: getImageData('portrait-2', 'A bride and groom in a tender embrace.'),
     galleryImages: [],
   },
   {

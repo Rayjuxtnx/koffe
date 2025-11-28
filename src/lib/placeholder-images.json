@@ -21,7 +21,7 @@
     {
       "id": "landscape-3",
       "description": "Aurora borealis over a snowy landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "northern lights"
     },
     {
@@ -32,9 +32,9 @@
     },
     {
       "id": "portrait-2",
-      "description": "A woman with striking face paint in a studio setting.",
-      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDI3NzgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman portrait"
+      "description": "A wedding couple embracing.",
+      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding couple"
     },
     {
       "id": "portrait-3",
@@ -63,7 +63,7 @@
     {
       "id": "gallery-l1-1",
       "description": "Detail shot of the canyon rock formations.",
-      "imageUrl": "https://images.unsplash.com/photo-1467693068421-3a2b8d01faf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb2NrJTIwZm9ybWF0aW9ufGVufDB8fHx8MTc2NDI3NTg5Nnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1467693068421-3a2b8d01faf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb2NrJTIwZm9ybWF0aW9ufGVufDB8fHx8MTc2NDI3NTg5Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "rock formation"
     },
     {
@@ -75,25 +75,25 @@
     {
       "id": "gallery-p1-1",
       "description": "Close up of the man's reflection in the window.",
-      "imageUrl": "https://images.unsplash.com/photo-1709307973571-0e5b4580aaf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3aW5kb3clMjByZWZsZWN0aW9ufGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1709307973571-0e5b4580aaf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3aW5kb3clMjByZWZsZWN0aW9ufGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "window reflection"
     },
     {
       "id": "gallery-p1-2",
       "description": "A different pose of the man by the window.",
-      "imageUrl": "https://images.unsplash.com/photo-1702726771451-5da363048f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBzaWxob3VldHRlfGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1702726771451-5da363048f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBzaWxob3VldHRlfGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man silhouette"
     },
     {
       "id": "gallery-s1-1",
       "description": "A shot of Nairobi traffic from a high-rise building.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi traffic"
     },
     {
       "id": "gallery-s1-2",
       "description": "The skyline of Nairobi during the day.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi skyline"
     }
   ]
