@@ -2,11 +2,12 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Camera, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
+import { Logo } from '@/components/logo';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -25,8 +26,8 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Camera className="h-6 w-6 text-primary" />
-            <span className="font-bold font-headline text-lg">Blu Koffee Studios</span>
+            <Logo className="h-8 w-auto text-primary" />
+            <span className="font-bold font-headline text-lg hidden sm:inline-block">Blu Koffee Studios</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             {navLinks.map(({ href, label }) => (
@@ -55,7 +56,7 @@ export function Header() {
               <SheetContent side="left">
                 <div className="flex flex-col h-full py-6">
                     <Link href="/" className="mb-8 flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
-                        <Camera className="h-6 w-6 text-primary" />
+                        <Logo className="h-8 w-auto text-primary" />
                         <span className="font-bold font-headline text-lg">Blu Koffee Studios</span>
                     </Link>
                     <nav className="flex flex-col gap-6">
