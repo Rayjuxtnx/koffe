@@ -116,7 +116,7 @@ export default function HomePage() {
                 A Story in Every Frame
               </h2>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                I'm a freelance photographer driven by a passion for visual storytelling. My work focuses on capturing authentic moments, whether it's the raw emotion of a portrait or the serene beauty of a landscape.
+                Photography is more than just taking pictures; it's about seeing the world differently. I'm a freelance photographer driven by a passion for visual storytelling. My work focuses on capturing authentic, unscripted moments—the raw emotion of a portrait, the serene beauty of a landscape, or the quiet narrative of an everyday scene. I believe the best images are the ones that feel real and evoke a genuine feeling. My goal is to create timeless art that tells your unique story with creativity and heart.
               </p>
               <Button asChild>
                 <Link href="/about">
