@@ -27,43 +27,31 @@ export default function AboutPage() {
   return (
     <div className="animate-fade-in">
         {/* Story Section */}
-        <div className="relative overflow-hidden">
-            <div className="absolute inset-0">
-                <Image
-                    src={profileImage.imageUrl}
-                    alt="The photographer, blurred in the background"
-                    fill
-                    className="object-cover blur-md scale-110"
-                    data-ai-hint={profileImage.imageHint}
-                />
-                <div className="absolute inset-0 bg-background/70" />
-            </div>
-            <div className="relative container mx-auto max-w-5xl py-16 md:py-24 px-4">
-                <div className="bg-card/50 backdrop-blur-sm p-8 md:p-12 rounded-lg">
-                    <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
-                        <div className="md:col-span-2 relative aspect-square max-w-md mx-auto md:max-w-none">
-                        <Image
-                            src={profileImage.imageUrl}
-                            alt="The photographer"
-                            fill
-                            className="object-cover rounded-lg shadow-lg"
-                            sizes="(max-width: 768px) 90vw, 40vw"
-                            data-ai-hint={profileImage.imageHint}
-                        />
-                        </div>
-                        <div className="md:col-span-3">
-                            <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center gap-4">
-                                <Coffee className="h-10 w-10 text-primary" /> The Story of Blu Koffee
-                            </h2>
-                            <h3 className="text-xl text-muted-foreground mb-6 font-headline">From Early Mornings to Lasting Moments.</h3>
-                            <div className="space-y-4 text-lg text-foreground/80 leading-relaxed">
-                                <p>
-                                The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
-                                </p>
-                                <p>
-                                The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
-                                </p>
-                            </div>
+        <div className="bg-background">
+            <div className="container mx-auto max-w-5xl py-16 md:py-24 px-4">
+                <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
+                    <div className="md:col-span-2 relative aspect-square max-w-md mx-auto md:max-w-none">
+                    <Image
+                        src={profileImage.imageUrl}
+                        alt="The photographer"
+                        fill
+                        className="object-cover rounded-lg shadow-lg"
+                        sizes="(max-width: 768px) 90vw, 40vw"
+                        data-ai-hint={profileImage.imageHint}
+                    />
+                    </div>
+                    <div className="md:col-span-3">
+                        <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center gap-4">
+                            <Coffee className="h-10 w-10 text-primary" /> The Story of Blu Koffee
+                        </h2>
+                        <h3 className="text-xl text-muted-foreground mb-6 font-headline">From Early Mornings to Lasting Moments.</h3>
+                        <div className="space-y-4 text-lg text-foreground/80 leading-relaxed">
+                            <p>
+                            The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
+                            </p>
+                            <p>
+                            The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
+                            </p>
                         </div>
                     </div>
                 </div>
