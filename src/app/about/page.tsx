@@ -106,5 +106,5 @@ export default function AboutPage() {
             </Button>
         </div>
     </div>
-  )
+  );
 }
