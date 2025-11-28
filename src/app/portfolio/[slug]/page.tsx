@@ -126,3 +126,5 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     </div>
   );
 }
+
+    

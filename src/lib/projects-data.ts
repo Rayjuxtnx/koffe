@@ -143,3 +143,5 @@ export const projects: Project[] = [
     galleryImages: [],
   },
 ];
+
+    
