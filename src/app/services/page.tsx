@@ -1,8 +1,8 @@
+
 'use client';
 import { Camera, Heart, Cake, Users, Baby, GraduationCap, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useMemo } from 'react';
@@ -73,57 +73,47 @@ export default function ServicesPage() {
   }, []);
 
   return (
-    <div className="container mx-auto max-w-6xl py-16 md:py-24 px-4">
+    <div className="container mx-auto max-w-7xl py-16 md:py-24 px-4">
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">Our Services</h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           We offer a wide range of photography services designed to capture the essence of your most important moments. Each session is tailored to your unique needs and vision.
         </p>
       </div>
-      <div className="max-w-4xl mx-auto">
-        <Accordion type="single" collapsible className="w-full space-y-4">
-          {services.map(({ Icon, title, shortDescription, longDescription, image }) => (
-            <AccordionItem key={title} value={title} className="bg-card border border-border/50 rounded-lg shadow-lg overflow-hidden">
-              <AccordionTrigger className="p-6 text-left hover:no-underline">
-                <div className="flex items-center gap-6 w-full">
-                  <div className="flex-shrink-0">
-                    <div className="h-16 w-16 rounded-full bg-primary/10 text-primary flex items-center justify-center">
-                      <Icon className="h-8 w-8" />
-                    </div>
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="font-bold text-xl font-headline mb-1">{title}</h3>
-                    <p className="text-muted-foreground leading-relaxed text-sm">{shortDescription}</p>
-                  </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {services.map(({ Icon, title, shortDescription, image }) => (
+          <div key={title} className="group relative aspect-w-4 aspect-h-5 rounded-lg overflow-hidden shadow-lg bg-card">
+            {image && (
+                <Image 
+                    src={image.src} 
+                    alt={image.alt}
+                    fill
+                    className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    data-ai-hint={image.hint}
+                />
+            )}
+            <div className="absolute inset-0 bg-black/50 transition-all duration-300 group-hover:bg-black/70" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center text-white">
+                <div className="transition-transform duration-300 ease-in-out group-hover:-translate-y-4">
+                    <Icon className="h-12 w-12 mb-4 text-primary" />
+                    <h3 className="font-bold text-2xl font-headline mb-2">{title}</h3>
                 </div>
-              </AccordionTrigger>
-              <AccordionContent className="px-6 pb-6 pt-0">
-                <div className="border-t border-border/50 pt-6 ml-[calc(4rem+1.5rem)] text-foreground/80 grid md:grid-cols-2 gap-6 items-start">
-                  <p className="leading-relaxed">{longDescription}</p>
-                  {image && (
-                    <div className="relative aspect-video rounded-lg overflow-hidden">
-                        <Image 
-                            src={image.src} 
-                            alt={image.alt} 
-                            fill 
-                            className="object-cover" 
-                            sizes="(max-width: 768px) 100vw, 50vw"
-                            data-ai-hint={image.hint}
-                        />
-                    </div>
-                  )}
+                <div className="absolute bottom-0 left-0 right-0 p-6 pt-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 group-hover:delay-200">
+                    <p className="text-foreground/80 leading-relaxed text-sm">{shortDescription}</p>
                 </div>
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+            </div>
+          </div>
+        ))}
       </div>
+
       <div className="text-center mt-16">
             <p className="text-lg text-muted-foreground mb-4">Ready to book a session or have a question?</p>
             <Button asChild size="lg">
                 <Link href="/contact">Get in Touch</Link>
             </Button>
-        </div>
+      </div>
     </div>
   );
 }
