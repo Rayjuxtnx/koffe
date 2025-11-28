@@ -64,14 +64,14 @@ export default function AboutPage() {
         {/* About Me Section */}
         <div className="bg-background">
             <div className="container mx-auto max-w-6xl py-16 md:py-24 px-4">
-            <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-                <div className="relative aspect-square max-w-md mx-auto md:max-w-none">
+            <div className="grid md:grid-cols-3 gap-12 md:gap-16 items-center">
+                <div className="relative aspect-square md:col-span-2">
                 <Image
                     src={profileImage.imageUrl}
                     alt="The photographer"
                     fill
                     className="object-cover rounded-lg shadow-lg"
-                    sizes="(max-width: 768px) 90vw, 45vw"
+                    sizes="(max-width: 768px) 90vw, 60vw"
                     data-ai-hint={profileImage.imageHint}
                 />
                 </div>
