@@ -1,4 +1,3 @@
-import { Instagram, Mail } from 'lucide-react';
 import Link from 'next/link';
 import { Logo } from '@/components/logo';
 
@@ -15,12 +14,9 @@ export function Footer() {
             &copy; {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
-        <div className="flex items-center gap-6">
-          <Link href="#" target="_blank" rel="noreferrer" aria-label="Instagram">
-            <Instagram className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-          </Link>
-          <Link href="/contact" aria-label="Contact">
-            <Mail className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+        <div className="text-sm text-muted-foreground">
+          <Link href="/contact" className="hover:text-primary transition-colors">
+            Get in Touch
           </Link>
         </div>
       </div>
