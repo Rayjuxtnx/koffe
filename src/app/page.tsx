@@ -10,7 +10,7 @@ import { PhotoCard } from '@/components/photo-card';
 export default function HomePage() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'landscape-1');
   const aboutImage = PlaceHolderImages.find(img => img.id === 'profile-photo');
-  const featuredProjects = projects.slice(0, 3);
+  const featuredProjects = projects.slice(0, 4);
 
   return (
     <div>
@@ -50,7 +50,7 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-bold font-headline">Featured Work</h2>
           <p className="text-lg text-muted-foreground mt-2 max-w-2xl mx-auto">A glimpse into my creative world. See what I've been capturing lately.</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           {featuredProjects.map((project, index) => (
             <PhotoCard 
               key={project.slug} 
