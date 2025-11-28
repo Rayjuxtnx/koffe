@@ -17,12 +17,13 @@ export default function PortfolioPage() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {projects.map((project, index) => (
-            <PhotoCard 
-              key={project.slug} 
-              project={project} 
-              onClick={() => setSelectedProject(project)}
-              index={index} 
-            />
+            <div key={project.slug} className="animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}>
+              <PhotoCard 
+                project={project} 
+                onClick={() => setSelectedProject(project)}
+                index={index} 
+              />
+            </div>
           ))}
         </div>
       </div>

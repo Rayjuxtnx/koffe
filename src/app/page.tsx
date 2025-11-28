@@ -30,14 +30,14 @@ export default async function HomePage() {
           />
           <div className="absolute inset-0 bg-background/60 backdrop-brightness-75" />
         </div>
-        <div className="relative z-10 text-center text-white px-4 animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold font-headline drop-shadow-2xl">
+        <div className="relative z-10 text-center text-white px-4">
+          <h1 className="text-5xl md:text-7xl font-bold font-headline drop-shadow-2xl animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Aperture
           </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80 drop-shadow-lg">
+          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80 drop-shadow-lg animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             A minimal, cinematic photography portfolio. Welcome to a curated collection of moments, captured in time.
           </p>
-          <Button asChild size="lg" className="mt-8">
+          <Button asChild size="lg" className="mt-8 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <Link href="/portfolio">
               Explore Portfolio <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
@@ -57,12 +57,13 @@ export default async function HomePage() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
             {featuredProjects.map((project, index) => (
-                <PhotoCard 
-                    key={project.slug} 
-                    project={project}
-                    index={index}
-                    isLink
-                />
+                <div key={project.slug} className="animate-fade-in-up" style={{ animationDelay: `${index * 150}ms`, opacity: 0 }}>
+                    <PhotoCard 
+                        project={project}
+                        index={index}
+                        isLink
+                    />
+                </div>
             ))}
         </div>
         <div className="text-center mt-12">
