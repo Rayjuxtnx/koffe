@@ -1,16 +1,14 @@
 'use client';
 import Image from 'next/image';
 import type { Project } from '@/lib/projects-data';
+import Link from 'next/link';
+import { cn } from '@/lib/utils';
 
-export function PhotoCard({ project, onClick, index }: { project: Project; onClick: () => void; index: number }) {
-  return (
+export function PhotoCard({ project, onClick, index, isLink = false }: { project: Project; onClick?: () => void; index: number, isLink?: boolean }) {
+  const CardContent = (
     <div
-      className="group relative overflow-hidden rounded-lg shadow-xl cursor-pointer bg-card animate-fade-in-up"
+      className="group relative overflow-hidden rounded-lg shadow-xl bg-card animate-fade-in-up"
       style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
-      onClick={onClick}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick()}
       aria-label={`View project: ${project.title}`}
     >
       <Image
@@ -27,6 +25,26 @@ export function PhotoCard({ project, onClick, index }: { project: Project; onCli
         <h3 className="text-xl font-bold text-white font-headline drop-shadow-md">{project.title}</h3>
         <p className="text-sm text-gray-200 drop-shadow-md">{project.category}</p>
       </div>
+    </div>
+  );
+
+  if (isLink) {
+    return (
+      <Link href={`/portfolio/${project.slug}`} className="block">
+        {CardContent}
+      </Link>
+    );
+  }
+
+  return (
+    <div
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick?.()}
+      className="cursor-pointer"
+    >
+      {CardContent}
     </div>
   );
 }
