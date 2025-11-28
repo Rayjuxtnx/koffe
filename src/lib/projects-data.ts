@@ -79,8 +79,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: 'city-reflections',
-    title: 'City Reflections',
+    slug: 'urban-contemplation',
+    title: 'Urban Contemplation',
     category: 'Portraits',
     shortDescription: 'A man\'s quiet contemplation against the vibrant city nightlife.',
     fullDescription: 'This portrait series was shot in downtown Chicago, focusing on moments of introspection amidst the urban chaos. Using window reflections and ambient city light, I aimed to create a sense of cinematic melancholy and connection to the environment.',
@@ -143,5 +143,3 @@ export const projects: Project[] = [
     galleryImages: [],
   },
 ];
-
-    
