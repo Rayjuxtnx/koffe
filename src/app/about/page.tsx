@@ -41,7 +41,7 @@ export default function AboutPage() {
             <div className="relative container mx-auto max-w-5xl py-16 md:py-24 px-4">
                 <div className="bg-card/50 backdrop-blur-sm p-8 md:p-12 rounded-lg">
                     <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
-                        <div className="md:col-span-2 relative aspect-square max-w-md mx-auto md:max-w-none">
+                        <div className="md:col-span-2 relative aspect-square max-w-sm mx-auto md:max-w-none">
                             <Image
                                 src={profileImage.imageUrl}
                                 alt="The photographer"
