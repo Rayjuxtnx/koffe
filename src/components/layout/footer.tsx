@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Link href="/" className="flex items-center gap-2 text-foreground">
             <Logo className="h-8 w-auto text-primary" />
-            <span className="font-bold font-headline hidden sm:inline-block">Blu Koffee Studios</span>
+            <span className="font-bold font-headline hidden sm:inline-block typewriter">Blu Koffee Studios</span>
           </Link>
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left md:ml-4">
             &copy; {new Date().getFullYear()}. All rights reserved.
