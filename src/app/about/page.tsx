@@ -20,16 +20,7 @@ export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(img => img.id === 'profile-photo');
   const heroImage = PlaceHolderImages.find(img => img.id === 'street-1');
   const featuredProjects = projects.slice(0, 3);
-  const [isStoryVisible, setIsStoryVisible] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsStoryVisible(false);
-    }, 5000); // The text will be visible for 5 seconds
-
-    return () => clearTimeout(timer);
-  }, []);
-
+  
 
   if (!profileImage || !heroImage) {
     // Fallback or error handling if the image is not found
@@ -63,7 +54,7 @@ export default function AboutPage() {
                                 data-ai-hint={profileImage.imageHint}
                             />
                         </div>
-                        <div className={`md:col-span-3 transition-opacity duration-1000 ${isStoryVisible ? 'opacity-100' : 'opacity-0'}`}>
+                        <div className="md:col-span-3">
                             <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center gap-4">
                                 <Coffee className="h-10 w-10 text-primary" /> The Story of Blu Koffee
                             </h2>
