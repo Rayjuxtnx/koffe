@@ -35,7 +35,8 @@
     --sidebar-primary-foreground: 0 0% 10%;
     --sidebar-accent: 217.2 32.6% 17.5%;
     --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-border: 217.2
+ 32.6% 17.5%;
     --sidebar-ring: 35 92% 56%;
   }
 
@@ -98,6 +99,14 @@
   .animate-shutter-spin {
     animation: spin 4s linear infinite;
   }
+  .typewriter {
+    overflow: hidden;
+    border-right: .15em solid hsl(var(--primary));
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
 }
 
 @keyframes fadeIn {
@@ -133,4 +142,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: hsl(var(--primary)); }
 }
