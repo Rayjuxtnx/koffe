@@ -94,18 +94,18 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: 'tokyo-glow',
-    title: 'Tokyo Glow',
+    slug: 'nairobi-nights',
+    title: 'Nairobi Nights',
     category: 'Street',
-    shortDescription: 'The electric energy of Tokyo\'s streets after dark.',
-    fullDescription: 'Tokyo is a city that never sleeps, and its nights are a symphony of light and movement. This collection captures the essence of areas like Shinjuku and Shibuya, focusing on the vibrant neon signs, bustling crowds, and hidden alleyways that define the city\'s nocturnal landscape.',
+    shortDescription: 'The vibrant, electric energy of Nairobi\'s streets after dark.',
+    fullDescription: 'Nairobi is a city that buzzes with life, and its nights are a symphony of light and movement. This collection captures the essence of the city, focusing on the vibrant city lights, bustling traffic, and the unique energy that defines Nairobi\'s nocturnal landscape.',
     date: 'July 2023',
-    location: 'Tokyo, Japan',
+    location: 'Nairobi, Kenya',
     equipment: 'Leica Q2',
-    coverImage: getImageData('street-1', 'A busy street corner in Tokyo at night, with neon signs glowing.'),
+    coverImage: getImageData('street-1', 'A busy street corner in Nairobi at night, with glowing city lights.'),
     galleryImages: [
-        getImageData('gallery-s1-1', 'A close-up of a neon sign in Tokyo.'),
-        getImageData('gallery-s1-2', 'People crossing the street in Shibuya.')
+        getImageData('gallery-s1-1', 'A shot of Nairobi traffic from a high-rise building.'),
+        getImageData('gallery-s1-2', 'The skyline of Nairobi during the day.')
     ],
   },
   {

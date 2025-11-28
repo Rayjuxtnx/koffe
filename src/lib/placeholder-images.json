@@ -44,9 +44,9 @@
     },
     {
       "id": "street-1",
-      "description": "A busy street corner in Tokyo at night, with neon signs glowing.",
-      "imageUrl": "https://images.unsplash.com/photo-1611125162305-ea7550c59dff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0b2t5byUyMHN0cmVldHxlbnwwfHx8fDE3NjQyNDAzNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tokyo street"
+      "description": "A busy street corner in Nairobi at night, with glowing city lights.",
+      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nairobi city"
     },
     {
       "id": "street-2",
@@ -86,15 +86,15 @@
     },
     {
       "id": "gallery-s1-1",
-      "description": "A close-up of a neon sign in Tokyo.",
-      "imageUrl": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuZW9uJTIwc2lnbnxlbnwwfHx8fDE3NjQzMjkyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "neon sign"
+      "description": "A shot of Nairobi traffic from a high-rise building.",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYWlyb2JpJTIwdHJhZmZpY3xlbnwwfHx8fDE3NjQzNTQ2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nairobi traffic"
     },
     {
       "id": "gallery-s1-2",
-      "description": "People crossing the street in Shibuya.",
-      "imageUrl": "https://images.unsplash.com/photo-1573456373835-579c408de263?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaGlidXlhJTIwY3Jvc3Npbmd8ZW58MHx8fHwxNzY0MzQ3OTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "shibuya crossing"
+      "description": "The skyline of Nairobi during the day.",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nairobi skyline"
     }
   ]
 }
