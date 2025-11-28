@@ -15,43 +15,43 @@
     {
       "id": "karura-forest",
       "description": "A tranquil path winding through Karura Forest.",
-      "imageUrl": "https://images.unsplash.com/photo-1742915992056-926d45a7be92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxrYXJ1cmElMjBmb3Jlc3R8ZW58MHx8fHwxNzY0MzUyMDk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1742915992056-926d45a7be92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxrYXJ1cmElMjBmb3Jlc3R8ZW58MHx8fHwxNzY0MzUyMDk0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "forest path"
     },
     {
       "id": "landscape-3",
       "description": "Aurora borealis over a snowy landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "northern lights"
     },
     {
       "id": "portrait-1",
       "description": "A man looking thoughtfully out a window with city lights reflecting.",
-      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "portrait-2",
       "description": "A wedding couple embracing.",
-      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wedding couple"
     },
     {
       "id": "portrait-3",
       "description": "A birthday cake with lit candles.",
-      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "birthday cake"
     },
     {
       "id": "street-1",
       "description": "A busy street corner in Nairobi at night, with glowing city lights.",
-      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi city"
     },
     {
       "id": "street-2",
       "description": "A street scene in Nakuru, Kenya.",
-      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nakuru street"
     },
     {
@@ -74,9 +74,9 @@
     },
     {
       "id": "gallery-p1-1",
-      "description": "Close up of the man's reflection in the window.",
-      "imageUrl": "https://images.unsplash.com/photo-1709307973571-0e5b4580aaf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3aW5kb3clMjByZWZsZWN0aW9ufGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "window reflection"
+      "description": "A happy dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8ZG9nfGVufDB8fHx8MTc2NDM1NzkzOXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog"
     },
     {
       "id": "gallery-p1-2",
@@ -105,13 +105,13 @@
     {
       "id": "maternity-photo",
       "description": "A pregnant woman holding her belly in a sunlit field.",
-      "imageUrl": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRlcm5pdHklMjBwaG90b3xlbnwwfHx8fDE3NjQ0NTIwNDd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRlcm5pdHklMjBwaG90b3xlbnwwfHx8fDE3NjQ0NTIwNDd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "maternity photo"
     },
     {
       "id": "graduation-photo",
       "description": "A graduate in cap and gown smiling at the camera.",
-      "imageUrl": "https://images.unsplash.com/photo-1629868332935-5b357e62d64f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFkdWF0aW9uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDUyMDc1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629868332935-5b357e62d64f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFkdWF0aW9uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDUyMDc1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "graduation portrait"
     }
   ]
