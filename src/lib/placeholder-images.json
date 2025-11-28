@@ -80,9 +80,9 @@
     },
     {
       "id": "gallery-p1-2",
-      "description": "A different pose of the man by the window.",
-      "imageUrl": "https://images.unsplash.com/photo-1702726771451-5da363048f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBzaWxob3VldHRlfGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "man silhouette"
+      "description": "A smiling black man.",
+      "imageUrl": "https://images.unsplash.com/photo-1629796987965-92f09e2d24af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
     },
     {
       "id": "gallery-s1-1",
@@ -105,13 +105,13 @@
     {
       "id": "maternity-photo",
       "description": "A pregnant woman holding her belly in a sunlit field.",
-      "imageUrl": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRlcm5pdHklMjBwaG90b3xlbnwwfHx8fDE3NjQ0NTIwNDd8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRlcm5pdHklMjBwaG90b3xlbnwwfHx8fDE3NjQ0NTIwNDd8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "maternity photo"
     },
     {
       "id": "graduation-photo",
       "description": "A graduate in cap and gown smiling at the camera.",
-      "imageUrl": "https://images.unsplash.com/photo-1629868332935-5b357e62d64f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFkdWF0aW9uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDUyMDc1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629868332935-5b357e62d64f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFkdWF0aW9uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDUyMDc1fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "graduation portrait"
     }
   ]

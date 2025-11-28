@@ -90,8 +90,8 @@ export const projects: Project[] = [
     equipment: 'Fujifilm X-T4 | 56mm f/1.2',
     coverImage: getImageData('portrait-1', 'A man looking thoughtfully out a window with city lights reflecting.'),
     galleryImages: [
-        getImageData('gallery-p1-1', "Close up of the man's reflection in the window."),
-        getImageData('gallery-p1-2', 'A different pose of the man by the window.')
+        getImageData('gallery-p1-1', "A happy dog."),
+        getImageData('gallery-p1-2', 'A smiling black man.')
     ],
   },
   {
@@ -144,3 +144,5 @@ export const projects: Project[] = [
     galleryImages: [],
   },
 ];
+
+    
