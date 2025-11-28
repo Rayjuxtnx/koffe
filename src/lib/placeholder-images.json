@@ -3,7 +3,7 @@
     {
       "id": "profile-photo",
       "description": "A profile picture of the photographer.",
-      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMG1hbnxlbnwwfHx8fDE3NjQzNTkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546525848-3ce03ca516f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxibGFjayUyMG1hbnxlbnwwfHx8fDE3NjQzNTkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "photographer portrait"
     },
     {
@@ -63,13 +63,13 @@
     {
       "id": "gallery-l1-1",
       "description": "A portrait of a black man.",
-      "imageUrl": "https://images.unsplash.com/photo-1629201984508-60fdc3bb81b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhJTIwYmxhY2slMjBtYW4lMjB8ZW58MHx8fHwxNzY0MzU4MjA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629201984508-60fdc3bb81b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhJTIwYmxhY2slMjBtYW4lMjB8ZW58MHx8fHwxNzY0MzU4MjA4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "black man"
     },
     {
       "id": "gallery-l1-2",
       "description": "Wide shot of the valley floor.",
-      "imageUrl": "https://images.unsplash.com/photo-1565038918648-b3537c385133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2YWxsZXklMjBmbG9vcnxlbnwwfHx8fDE3NjQzNTkxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1565038918648-b3537c385133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2YWxsZXklMjBmbG9vcnxlbnwwfHx8fDE3NjQzNTkxMjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "valley floor"
     },
     {
@@ -81,7 +81,7 @@
     {
       "id": "gallery-p1-2",
       "description": "A smiling black man.",
-      "imageUrl": "https://images.unsplash.com/photo-1629796987965-92f09e2d24af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629796987965-92f09e2d24af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man smiling"
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "gallery-s1-2",
       "description": "The skyline of Nairobi during the day.",
-      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi skyline"
     },
     {
