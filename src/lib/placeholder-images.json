@@ -1,3 +1,100 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-photo",
+      "description": "A profile picture of the photographer.",
+      "imageUrl": "https://images.unsplash.com/photo-1635349090262-431052479144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaG90b2dyYXBoZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQzNDc5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "photographer portrait"
+    },
+    {
+      "id": "landscape-1",
+      "description": "Golden hour light over a vast canyon.",
+      "imageUrl": "https://images.unsplash.com/photo-1672426142068-c2103a852426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYW55b24lMjBzdW5zZXR8ZW58MHx8fHwxNzY0MzQ3OTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "canyon sunset"
+    },
+    {
+      "id": "landscape-2",
+      "description": "A winding road through a forest in autumn.",
+      "imageUrl": "https://images.unsplash.com/photo-1605530361220-9553c71a0ec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdXR1bW4lMjBmb3Jlc3R8ZW58MHx8fHwxNzY0MjU0MzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "autumn forest"
+    },
+    {
+      "id": "landscape-3",
+      "description": "Aurora borealis over a snowy landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "northern lights"
+    },
+    {
+      "id": "portrait-1",
+      "description": "A man looking thoughtfully out a window with city lights reflecting.",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQyNTExNDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "portrait-2",
+      "description": "A woman with striking face paint in a studio setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDI3NzgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "portrait-3",
+      "description": "A child laughing in a field of wildflowers.",
+      "imageUrl": "https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0MzQwOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child smiling"
+    },
+    {
+      "id": "street-1",
+      "description": "A busy street corner in Tokyo at night, with neon signs glowing.",
+      "imageUrl": "https://images.unsplash.com/photo-1611125162305-ea7550c59dff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0b2t5byUyMHN0cmVldHxlbnwwfHx8fDE3NjQyNDAzNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tokyo street"
+    },
+    {
+      "id": "street-2",
+      "description": "A lone person with an umbrella walking on a cobblestone street in the rain.",
+      "imageUrl": "https://images.unsplash.com/photo-1552570173-43e2d76c37f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyYWlueSUyMHN0cmVldHxlbnwwfHx8fDE3NjQyMzUwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rainy street"
+    },
+    {
+      "id": "street-3",
+      "description": "Yellow taxi cabs on a New York City street.",
+      "imageUrl": "https://images.unsplash.com/photo-1610821653437-321f70d5674f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxueWMlMjB0YXhpfGVufDB8fHx8MTc2NDM0NzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nyc taxi"
+    },
+    {
+      "id": "gallery-l1-1",
+      "description": "Detail shot of the canyon rock formations.",
+      "imageUrl": "https://images.unsplash.com/photo-1467693068421-3a2b8d01faf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb2NrJTIwZm9ybWF0aW9ufGVufDB8fHx8MTc2NDI3NTg5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rock formation"
+    },
+    {
+      "id": "gallery-l1-2",
+      "description": "Wide shot of the canyon from a different angle.",
+      "imageUrl": "https://images.unsplash.com/photo-1727054620791-7dc660e8a9ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW55b24lMjB2aXN0YXxlbnwwfHx8fDE3NjQzNDc5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "canyon vista"
+    },
+    {
+      "id": "gallery-p1-1",
+      "description": "Close up of the man's reflection in the window.",
+      "imageUrl": "https://images.unsplash.com/photo-1709307973571-0e5b4580aaf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3aW5kb3clMjByZWZsZWN0aW9ufGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "window reflection"
+    },
+    {
+      "id": "gallery-p1-2",
+      "description": "A different pose of the man by the window.",
+      "imageUrl": "https://images.unsplash.com/photo-1702726771451-5da363048f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBzaWxob3VldHRlfGVufDB8fHx8MTc2NDM0NzkwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man silhouette"
+    },
+    {
+      "id": "gallery-s1-1",
+      "description": "A close-up of a neon sign in Tokyo.",
+      "imageUrl": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuZW9uJTIwc2lnbnxlbnwwfHx8fDE3NjQzMjkyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neon sign"
+    },
+    {
+      "id": "gallery-s1-2",
+      "description": "People crossing the street in Shibuya.",
+      "imageUrl": "https://images.unsplash.com/photo-1573456373835-579c408de263?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaGlidXlhJTIwY3Jvc3Npbmd8ZW58MHx8fHwxNzY0MzQ3OTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shibuya crossing"
+    }
+  ]
 }
