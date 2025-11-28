@@ -13,7 +13,7 @@ export function SplashScreen() {
                 <div className="absolute inset-0 rounded-full bg-background z-10"></div>
                 <div className="absolute inset-0 flex flex-col items-center justify-center z-20 animate-pulse">
                     <Logo className="w-10 h-10" />
-                    <span className="text-xs font-headline mt-2 text-foreground">Blu Koffee</span>
+                    <span className="text-sm font-headline mt-2 text-foreground typewriter">Blu Koffee</span>
                 </div>
                 <div className="absolute inset-0.5 rounded-full z-0 animate-shutter-spin">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 h-1/2 w-[1px] bg-primary/50"></div>
