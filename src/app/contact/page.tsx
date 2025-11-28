@@ -22,20 +22,6 @@ const contactMethods = [
         description: 'For urgent matters and direct conversation.',
         href: 'tel:0795107535',
         label: '0795107535'
-    },
-    {
-        Icon: Instagram,
-        title: 'Direct Message',
-        description: 'For quick questions and to see my latest work.',
-        href: '#',
-        label: '@blukoffeestudios'
-    },
-    {
-        Icon: Linkedin,
-        title: 'Connect on LinkedIn',
-        description: 'For professional networking and collaborations.',
-        href: '#',
-        label: 'Blu Koffee Studios'
     }
 ]
 
