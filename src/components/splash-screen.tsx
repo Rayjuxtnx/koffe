@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function SplashScreen() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'landscape-1');
+  const heroImage = PlaceHolderImages.find(img => img.id === 'street-1');
 
   if (!heroImage) return null;
 
