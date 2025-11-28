@@ -118,21 +118,33 @@ export default async function HomePage() {
       </div>
 
       {/* Contact Section */}
-      <div className="container mx-auto px-4 py-16 md:py-24 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold font-headline">
-          Have a Project in Mind?
-        </h2>
-        <p className="text-lg text-muted-foreground mt-2 mb-8 max-w-2xl mx-auto">
-          Let's collaborate to bring your vision to life. I'm available for commissions and creative projects worldwide.
-        </p>
-        <Button asChild size="lg">
-          <Link href="/contact">
-            Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
-          </Link>
-        </Button>
+      <div className="relative overflow-hidden">
+        <div className="absolute inset-0">
+            <Image
+                src={heroImage.imageUrl}
+                alt="Blurred city background"
+                fill
+                className="object-cover blur-md scale-110"
+                data-ai-hint={heroImage.imageHint}
+            />
+            <div className="absolute inset-0 bg-background/70" />
+        </div>
+        <div className="relative container mx-auto px-4 py-16 md:py-24 text-center">
+            <div className="bg-card/50 backdrop-blur-sm p-8 rounded-lg max-w-4xl mx-auto">
+                <h2 className="text-4xl md:text-5xl font-bold font-headline">
+                Have a Project in Mind?
+                </h2>
+                <p className="text-lg text-muted-foreground mt-2 mb-8 max-w-2xl mx-auto">
+                Let's collaborate to bring your vision to life. I'm available for commissions and creative projects worldwide.
+                </p>
+                <Button asChild size="lg">
+                <Link href="/contact">
+                    Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+                </Button>
+            </div>
+        </div>
       </div>
     </div>
   );
 }
-
-    
