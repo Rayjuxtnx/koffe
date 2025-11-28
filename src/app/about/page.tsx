@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Instagram, Mail, Linkedin } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
@@ -9,24 +8,6 @@ export const metadata: Metadata = {
   title: 'About',
   description: 'Learn more about the photographer, their passion, and their work.',
 };
-
-const socialLinks = [
-    {
-        Icon: Instagram,
-        href: '#',
-        label: 'Instagram'
-    },
-    {
-        Icon: Linkedin,
-        href: '#',
-        label: 'LinkedIn'
-    },
-    {
-        Icon: Mail,
-        href: '/contact',
-        label: 'Email'
-    }
-]
 
 export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(img => img.id === 'profile-photo');
@@ -66,20 +47,9 @@ export default function AboutPage() {
             <Button asChild>
                 <Link href="/contact">Get in Touch</Link>
             </Button>
-            <div className="flex items-center gap-2">
-                {socialLinks.map(({ Icon, href, label }) => (
-                    <Button key={label} variant="ghost" size="icon" asChild>
-                        <Link href={href} aria-label={label} target={href.startsWith('http') ? '_blank' : undefined}>
-                            <Icon className="h-5 w-5" />
-                        </Link>
-                    </Button>
-                ))}
-            </div>
           </div>
         </div>
       </div>
     </div>
   )
 }
-
-    
