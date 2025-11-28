@@ -9,7 +9,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default async function HomePage() {
   const featuredProjects = projects.slice(0, 4);
-  const heroImage = PlaceHolderImages.find(img => img.id === 'street-1');
+  const heroImage = PlaceHolderImages.find(img => img.id === 'landscape-1');
   const profileImage = PlaceHolderImages.find(img => img.id === 'profile-photo');
   
   if (!heroImage || !profileImage) {
