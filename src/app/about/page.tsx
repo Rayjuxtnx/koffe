@@ -3,10 +3,11 @@ import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
+import { Coffee } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Learn more about the photographer, their passion, and their work.',
+  description: 'The story behind Blu Koffee Studios, born from passion and early morning coffee.',
 };
 
 export default function AboutPage() {
@@ -34,16 +35,20 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="md:col-span-3">
-          <h1 className="text-4xl md:text-5xl font-bold font-headline mb-6">Capturing the world, one frame at a time.</h1>
+            <div className="flex items-center gap-3 mb-4 text-primary">
+                <Coffee className="h-6 w-6"/>
+                <p className="font-semibold">The Story of Blu Koffee</p>
+            </div>
+          <h1 className="text-4xl md:text-5xl font-bold font-headline mb-6">From Early Mornings to Lasting Moments.</h1>
           <div className="text-lg text-foreground/80 space-y-6 leading-relaxed">
             <p>
-              I’m a freelance photographer specializing in atmospheric portraits and travel photography. For me, photography is not just about capturing a moment, but about telling a story. It's about finding the extraordinary in the ordinary and revealing the emotion that lies just beneath the surface.
+                The name "Blu Koffee" was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
             </p>
             <p>
-              With a background in cinematic arts, I bring a unique perspective to my work, focusing on light, composition, and narrative to create images that are both beautiful and evocative. Whether I'm on a remote mountain top or in the heart of a bustling city, my goal is always the same: to create an image that resonates.
+                The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
             </p>
           </div>
-          <div className="mt-8 flex items-center gap-4">
+          <div className="mt-8">
             <Button asChild>
                 <Link href="/contact">Get in Touch</Link>
             </Button>
