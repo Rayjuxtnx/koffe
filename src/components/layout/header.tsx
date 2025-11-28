@@ -9,8 +9,7 @@ import { cn } from '@/lib/utils';
 import { useState } from 'react';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/portfolio', label: 'Portfolio' },
+  { href: '/', label: 'Portfolio' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];
@@ -34,7 +33,7 @@ export function Header() {
                 href={href}
                 className={cn(
                   'transition-colors hover:text-foreground',
-                  (pathname === href || (href === '/portfolio' && pathname.startsWith('/portfolio'))) ? 'text-foreground' : 'text-muted-foreground'
+                  (pathname === href || (href !== '/' && pathname.startsWith(href))) ? 'text-foreground' : 'text-muted-foreground'
                 )}
               >
                 {label}
@@ -65,7 +64,7 @@ export function Header() {
                             onClick={() => setIsMobileMenuOpen(false)}
                             className={cn(
                             'text-lg font-medium transition-colors hover:text-primary',
-                            (pathname === href || (href === '/portfolio' && pathname.startsWith('/portfolio'))) ? 'text-primary' : 'text-foreground'
+                            (pathname === href || (href !== '/' && pathname.startsWith(href))) ? 'text-primary' : 'text-foreground'
                             )}
                         >
                             {label}

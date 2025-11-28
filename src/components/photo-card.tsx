@@ -6,46 +6,32 @@ import { cn } from '@/lib/utils';
 import { useState } from 'react';
 
 export function PhotoCard({ project, onClick, index, isLink = false }: { project: Project; onClick?: () => void; index: number, isLink?: boolean }) {
-  const [isHovered, setIsHovered] = useState(false);
-
   const CardContent = (
     <div
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      className="group relative overflow-hidden rounded-lg shadow-xl bg-card animate-fade-in-up custom-shape"
-      style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
+      className="group relative overflow-hidden rounded-lg shadow-xl bg-card"
+      style={{ animationDelay: `${index * 100}ms`}}
       aria-label={`View project: ${project.title}`}
     >
-      <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-60 transition-opacity duration-500 z-10" />
-      <div style={{ transform: isHovered ? 'scale(1.15)' : 'scale(1)', transition: 'transform 6s ease-in-out' }} className="h-full w-full">
-        <Image
-          src={project.coverImage.src}
-          alt={project.coverImage.alt}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-          className="object-cover transition-transform duration-500 ease-in-out"
-          style={{ transform: isHovered ? 'translateY(-20px)' : 'translateY(0px)', transition: 'transform 4s ease-in-out' }}
-          data-ai-hint={project.coverImage.hint}
-        />
-      </div>
-
-      <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-        <div className="text-white drop-shadow-md">
-            <h3 className="text-xl font-bold font-headline ">{project.title}</h3>
-            <p className="text-sm text-gray-200">{project.category}</p>
-        </div>
-        <div className="mt-4 overflow-hidden">
-            <p className="text-sm text-gray-300 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 ease-in-out">
-                {project.shortDescription}
-            </p>
-        </div>
+      <Image
+        src={project.coverImage.src}
+        alt={project.coverImage.alt}
+        width={project.coverImage.width}
+        height={project.coverImage.height}
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+        data-ai-hint={project.coverImage.hint}
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div className="absolute bottom-0 left-0 right-0 p-6 z-10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+        <h3 className="text-xl font-bold font-headline text-white drop-shadow-md">{project.title}</h3>
+        <p className="text-sm text-gray-200">{project.category}</p>
       </div>
     </div>
   );
 
   if (isLink) {
     return (
-      <Link href={`/portfolio/${project.slug}`} className="block aspect-[4/5]">
+      <Link href={`/portfolio/${project.slug}`} className="block aspect-[4/5] animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}>
         {CardContent}
       </Link>
     );
@@ -57,7 +43,8 @@ export function PhotoCard({ project, onClick, index, isLink = false }: { project
       role="button"
       tabIndex={0}
       onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick?.()}
-      className="cursor-pointer aspect-[4/5]"
+      className="cursor-pointer aspect-[4/5] animate-fade-in-up"
+      style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
     >
       {CardContent}
     </div>
