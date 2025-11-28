@@ -1,3 +1,4 @@
+
 import { PlaceHolderImages, type ImagePlaceholder } from './placeholder-images';
 
 export type ProjectImage = {
@@ -82,14 +83,14 @@ export const projects: Project[] = [
     slug: 'urban-contemplation',
     title: 'Urban Contemplation',
     category: 'Portraits',
-    shortDescription: 'A man\'s quiet contemplation against the vibrant city nightlife.',
-    fullDescription: 'This portrait series was shot in downtown Chicago, focusing on moments of introspection amidst the urban chaos. Using window reflections and ambient city light, I aimed to create a sense of cinematic melancholy and connection to the environment.',
+    shortDescription: "A man's quiet contemplation against the vibrant city nightlife of Nairobi.",
+    fullDescription: "This portrait series was shot in downtown Nairobi, focusing on moments of introspection amidst the urban energy. Using window reflections and ambient city light, I aimed to create a sense of cinematic melancholy and connection to the environment.",
     date: 'December 2023',
-    location: 'Chicago, USA',
+    location: 'Nairobi, Kenya',
     equipment: 'Fujifilm X-T4 | 56mm f/1.2',
     coverImage: getImageData('portrait-1', 'A man looking thoughtfully out a window with city lights reflecting.'),
     galleryImages: [
-        getImageData('gallery-p1-1', 'Close up of the man\'s reflection in the window.'),
+        getImageData('gallery-p1-1', "Close up of the man's reflection in the window."),
         getImageData('gallery-p1-2', 'A different pose of the man by the window.')
     ],
   },
@@ -97,12 +98,12 @@ export const projects: Project[] = [
     slug: 'nairobi-nights',
     title: 'Nairobi Nights',
     category: 'Street',
-    shortDescription: 'The vibrant, electric energy of Nairobi\'s streets after dark.',
-    fullDescription: 'Nairobi is a city that buzzes with life, and its nights are a symphony of light and movement. This collection captures the essence of the city, focusing on the vibrant city lights, bustling traffic, and the unique energy that defines Nairobi\'s nocturnal landscape.',
+    shortDescription: "The vibrant, electric energy of Nairobi's streets after dark.",
+    fullDescription: "Nairobi is a city that buzzes with life, and its nights are a symphony of light and movement. This collection captures the essence of the city, focusing on the vibrant city lights, bustling traffic, and the unique energy that defines Nairobi's nocturnal landscape.",
     date: 'July 2023',
     location: 'Nairobi, Kenya',
     equipment: 'Leica Q2',
-    coverImage: getImageData('street-1', 'A busy street corner in Nairobi at night, with glowing city lights.'),
+    coverImage: getImageData('street-1', "A busy street corner in Nairobi at night, with glowing city lights."),
     galleryImages: [
         getImageData('gallery-s1-1', 'A shot of Nairobi traffic from a high-rise building.'),
         getImageData('gallery-s1-2', 'The skyline of Nairobi during the day.')
@@ -136,7 +137,7 @@ export const projects: Project[] = [
     title: 'Nakuru Streets',
     category: 'Street',
     shortDescription: 'The dynamic flow of daily life on the streets of Nakuru.',
-    fullDescription: 'This series captures the everyday rhythm of Nakuru. From the bustling market stalls to the quiet side streets, these images document the city\'s unique character and the stories of the people who call it home.',
+    fullDescription: "This series captures the everyday rhythm of Nakuru. From the bustling market stalls to the quiet side streets, these images document the city's unique character and the stories of the people who call it home.",
     date: 'May 2023',
     location: 'Nakuru, Kenya',
     coverImage: getImageData('street-2', 'A busy street scene in Nakuru, Kenya.'),
