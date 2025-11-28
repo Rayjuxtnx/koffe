@@ -3,25 +3,33 @@ import Image from 'next/image';
 import type { Project } from '@/lib/projects-data';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import { useState } from 'react';
 
 export function PhotoCard({ project, onClick, index, isLink = false }: { project: Project; onClick?: () => void; index: number, isLink?: boolean }) {
+  const [isHovered, setIsHovered] = useState(false);
+
   const CardContent = (
     <div
-      className="group relative overflow-hidden rounded-lg shadow-xl bg-card animate-fade-in-up"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className="group relative overflow-hidden rounded-lg shadow-xl bg-card animate-fade-in-up custom-shape"
       style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
       aria-label={`View project: ${project.title}`}
     >
-      <Image
-        src={project.coverImage.src}
-        alt={project.coverImage.alt}
-        width={project.coverImage.width}
-        height={project.coverImage.height}
-        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        className="w-full h-auto object-cover aspect-[4/5] transition-transform duration-500 ease-in-out group-hover:scale-105"
-        data-ai-hint={project.coverImage.hint}
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-100 group-hover:opacity-100 transition-all duration-300" />
-      <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+      <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-60 transition-opacity duration-500 z-10" />
+      <div style={{ transform: isHovered ? 'scale(1.15)' : 'scale(1)', transition: 'transform 6s ease-in-out' }} className="h-full w-full">
+        <Image
+          src={project.coverImage.src}
+          alt={project.coverImage.alt}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          className="object-cover transition-transform duration-500 ease-in-out"
+          style={{ transform: isHovered ? 'translateY(-20px)' : 'translateY(0px)', transition: 'transform 4s ease-in-out' }}
+          data-ai-hint={project.coverImage.hint}
+        />
+      </div>
+
+      <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
         <div className="text-white drop-shadow-md">
             <h3 className="text-xl font-bold font-headline ">{project.title}</h3>
             <p className="text-sm text-gray-200">{project.category}</p>
@@ -37,7 +45,7 @@ export function PhotoCard({ project, onClick, index, isLink = false }: { project
 
   if (isLink) {
     return (
-      <Link href={`/portfolio/${project.slug}`} className="block">
+      <Link href={`/portfolio/${project.slug}`} className="block aspect-[4/5]">
         {CardContent}
       </Link>
     );
@@ -49,7 +57,7 @@ export function PhotoCard({ project, onClick, index, isLink = false }: { project
       role="button"
       tabIndex={0}
       onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick?.()}
-      className="cursor-pointer"
+      className="cursor-pointer aspect-[4/5]"
     >
       {CardContent}
     </div>
