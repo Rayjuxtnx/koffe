@@ -1,33 +1,28 @@
 'use client';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Logo } from './logo';
 
 export function SplashScreen() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'street-1');
-
-  if (!heroImage) return null;
-
   return (
-    <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background animate-fade-in">
-       <div className="absolute inset-0 z-0">
-          <Image
-            src={heroImage.imageUrl}
-            alt="A stunning landscape photograph"
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-          <div className="absolute inset-0 bg-background/80 backdrop-brightness-75 backdrop-blur-sm" />
+    <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background">
+      <div className="relative flex items-center justify-center w-32 h-32">
+        <div className="absolute inset-0 border-4 border-primary/20 rounded-full animate-pulse"></div>
+        <div className="absolute inset-2 border-t-2 border-primary rounded-full animate-spin"></div>
+        <div className="absolute">
+            <div className="relative w-20 h-20 text-primary">
+                <div className="absolute inset-0 rounded-full bg-background z-10"></div>
+                <div className="absolute inset-0 flex items-center justify-center z-20 animate-pulse">
+                    <Logo className="w-10 h-10" />
+                </div>
+                <div className="absolute inset-0.5 rounded-full z-0 animate-shutter-spin">
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 h-1/2 w-[1px] bg-primary/50"></div>
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-1/2 w-[1px] bg-primary/50"></div>
+                    <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1/2 h-[1px] bg-primary/50"></div>
+                    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[1px] bg-primary/50"></div>
+                </div>
+            </div>
         </div>
-        <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-7xl font-bold font-headline drop-shadow-2xl animate-fade-in-up animate-text-gradient" style={{ animationDelay: '0.2s' }}>
-            Welcome to Blu Koffee Studios
-          </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80 drop-shadow-lg animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            Where we capture moments.
-          </p>
-        </div>
+      </div>
+      <p className="mt-6 text-lg text-muted-foreground animate-pulse">Capturing moments...</p>
     </div>
   );
 }

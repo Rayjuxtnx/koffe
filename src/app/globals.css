@@ -4,11 +4,11 @@
 
 @layer base {
   :root {
-    --background: 220 14% 16%;
+    --background: 220 14% 10%;
     --foreground: 210 40% 98%;
-    --card: 220 14% 20%;
+    --card: 220 14% 14%;
     --card-foreground: 210 40% 98%;
-    --popover: 220 14% 12%;
+    --popover: 220 14% 8%;
     --popover-foreground: 210 40% 98%;
     --primary: 35 92% 56%;
     --primary-foreground: 210 40% 9.8%;
@@ -40,11 +40,11 @@
   }
 
   .dark {
-    --background: 220 14% 16%;
+    --background: 220 14% 10%;
     --foreground: 210 40% 98%;
-    --card: 220 14% 20%;
+    --card: 220 14% 14%;
     --card-foreground: 210 40% 98%;
-    --popover: 220 14% 12%;
+    --popover: 220 14% 8%;
     --popover-foreground: 210 40% 98%;
     --primary: 35 92% 56%;
     --primary-foreground: 210 40% 9.8%;
@@ -95,6 +95,9 @@
     -webkit-text-fill-color: transparent;
     animation: text-gradient 4s ease-in-out infinite;
   }
+  .animate-shutter-spin {
+    animation: spin 4s linear infinite;
+  }
 }
 
 @keyframes fadeIn {
@@ -121,4 +124,13 @@
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

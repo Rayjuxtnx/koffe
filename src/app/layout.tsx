@@ -42,7 +42,7 @@ export default function RootLayout({
     // Simulate a loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // Adjust time as needed
+    }, 2000); // Adjust time as needed
 
     return () => clearTimeout(timer);
   }, []);
