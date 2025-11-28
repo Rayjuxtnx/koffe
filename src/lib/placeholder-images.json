@@ -39,19 +39,19 @@
     {
       "id": "portrait-3",
       "description": "A child laughing in a field of wildflowers.",
-      "imageUrl": "https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0MzQwOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0MzQwOTcwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "child smiling"
     },
     {
       "id": "street-1",
       "description": "A busy street corner in Nairobi at night, with glowing city lights.",
-      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi city"
     },
     {
       "id": "street-2",
       "description": "A street scene in Nakuru, Kenya.",
-      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1690831195945-31fd13dda712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bmFpcm9iaSUyMGNpdHl8ZW58MHx8fHwxNzY0MzUyMDE5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nakuru street"
     },
     {
@@ -95,6 +95,24 @@
       "description": "The skyline of Nairobi during the day.",
       "imageUrl": "https://images.unsplash.com/photo-1590038965095-536c46931969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlyb2JpJTIwc2t5bGluZXxlbnwwfHx8fDE3NjQzNTQ3MTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi skyline"
+    },
+    {
+      "id": "family-photo",
+      "description": "A happy family walking on the beach at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1518568814500-bf045b103956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjBvbiUyMGJlYWNofGVufDB8fHx8MTc2NDQ1MjAwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "family beach"
+    },
+    {
+      "id": "maternity-photo",
+      "description": "A pregnant woman holding her belly in a sunlit field.",
+      "imageUrl": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRlcm5pdHklMjBwaG90b3xlbnwwfHx8fDE3NjQ0NTIwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "maternity photo"
+    },
+    {
+      "id": "graduation-photo",
+      "description": "A graduate in cap and gown smiling at the camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1629868332935-5b357e62d64f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFkdWF0aW9uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDUyMDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation portrait"
     }
   ]
 }

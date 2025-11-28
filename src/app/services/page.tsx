@@ -3,54 +3,75 @@ import { Camera, Heart, Cake, Users, Baby, GraduationCap, Sparkles } from 'lucid
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { useMemo } from 'react';
 
 
-const services = [
+const servicesData = [
     {
         Icon: Camera,
         title: 'Studio Portraits',
         shortDescription: 'Professional headshots and portraits in a controlled studio environment.',
-        longDescription: 'Our studio sessions are designed to capture your best side. We work with you to create stunning portraits for professional profiles, portfolios, or personal use. With controlled lighting and a variety of backdrops, we ensure a high-quality, polished result.'
+        longDescription: 'Our studio sessions are designed to capture your best side. We work with you to create stunning portraits for professional profiles, portfolios, or personal use. With controlled lighting and a variety of backdrops, we ensure a high-quality, polished result.',
+        imageId: 'portrait-1'
     },
     {
         Icon: Heart,
         title: 'Weddings & Proposals',
         shortDescription: 'Capturing the magic of your special day with timeless photos.',
-        longDescription: 'From the intimate moments of a proposal to the grand celebration of a wedding, we are there to document your love story. Our style is cinematic and emotional, focusing on the authentic interactions that make your day unique.'
+        longDescription: 'From the intimate moments of a proposal to the grand celebration of a wedding, we are there to document your love story. Our style is cinematic and emotional, focusing on the authentic interactions that make your day unique.',
+        imageId: 'portrait-2'
     },
     {
         Icon: Cake,
         title: 'Birthdays',
         shortDescription: 'Fun and memorable photoshoots to celebrate another year of life.',
-        longDescription: 'Mark another milestone with a personalized birthday photoshoot. Whether it\'s a cake smash for a first birthday or a stylish session for your 30th, we create a fun and relaxed atmosphere to capture your personality.'
+        longDescription: 'Mark another milestone with a personalized birthday photoshoot. Whether it\'s a cake smash for a first birthday or a stylish session for your 30th, we create a fun and relaxed atmosphere to capture your personality.',
+        imageId: 'portrait-3'
     },
     {
         Icon: Users,
         title: 'Family Photos',
         shortDescription: 'Beautifully composed photos to cherish your family\'s bond.',
-        longDescription: 'Family is everything. Our family sessions are about capturing the connection and love you share. We aim for natural, heartfelt images that you will treasure for generations, whether it\'s at our studio, your home, or a favorite outdoor location.'
+        longDescription: 'Family is everything. Our family sessions are about capturing the connection and love you share. We aim for natural, heartfelt images that you will treasure for generations, whether it\'s at our studio, your home, or a favorite outdoor location.',
+        imageId: 'family-photo'
     },
     {
         Icon: Baby,
         title: 'Maternity & Baby Bump',
         shortDescription: 'Elegant photoshoots to celebrate the journey of motherhood.',
-        longDescription: 'The journey to motherhood is a beautiful and transformative experience. Our maternity sessions are designed to make you feel comfortable and radiant, creating elegant and artistic images that celebrate this special time in your life.'
+        longDescription: 'The journey to motherhood is a beautiful and transformative experience. Our maternity sessions are designed to make you feel comfortable and radiant, creating elegant and artistic images that celebrate this special time in your life.',
+        imageId: 'maternity-photo'
     },
     {
         Icon: GraduationCap,
         title: 'Graduations',
         shortDescription: 'Commemorate your academic achievements with distinguished portraits.',
-        longDescription: 'You\'ve worked hard to get here. Commemorate your graduation with distinguished portraits that reflect your achievement and personality. We offer sessions on-campus or in-studio to celebrate this major life accomplishment.'
+        longDescription: 'You\'ve worked hard to get here. Commemorate your graduation with distinguished portraits that reflect your achievement and personality. We offer sessions on-campus or in-studio to celebrate this major life accomplishment.',
+        imageId: 'graduation-photo'
     },
     {
         Icon: Sparkles,
         title: 'And More...',
         shortDescription: 'Have a unique event? Contact us for a custom photography package.',
-        longDescription: 'Don\'t see what you\'re looking for? We love creative challenges! From corporate events and product photography to editorial shoots and passion projects, contact us to discuss your vision, and we\'ll create a custom package just for you.'
+        longDescription: 'Don\'t see what you\'re looking for? We love creative challenges! From corporate events and product photography to editorial shoots and passion projects, contact us to discuss your vision, and we\'ll create a custom package just for you.',
+        imageId: 'landscape-3'
     }
 ];
 
 export default function ServicesPage() {
+
+  const services = useMemo(() => {
+    return servicesData.map(service => {
+        const image = PlaceHolderImages.find(img => img.id === service.imageId);
+        return {
+            ...service,
+            image: image ? { src: image.imageUrl, alt: image.description, hint: image.imageHint } : null,
+        }
+    });
+  }, []);
+
   return (
     <div className="container mx-auto max-w-6xl py-16 md:py-24 px-4">
       <div className="text-center mb-16">
@@ -61,7 +82,7 @@ export default function ServicesPage() {
       </div>
       <div className="max-w-4xl mx-auto">
         <Accordion type="single" collapsible className="w-full space-y-4">
-          {services.map(({ Icon, title, shortDescription, longDescription }) => (
+          {services.map(({ Icon, title, shortDescription, longDescription, image }) => (
             <AccordionItem key={title} value={title} className="bg-card border border-border/50 rounded-lg shadow-lg overflow-hidden">
               <AccordionTrigger className="p-6 text-left hover:no-underline">
                 <div className="flex items-center gap-6 w-full">
@@ -77,8 +98,20 @@ export default function ServicesPage() {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="px-6 pb-6 pt-0">
-                <div className="border-t border-border/50 pt-4 ml-[calc(4rem+1.5rem)] text-foreground/80">
+                <div className="border-t border-border/50 pt-6 ml-[calc(4rem+1.5rem)] text-foreground/80 grid md:grid-cols-2 gap-6 items-start">
                   <p className="leading-relaxed">{longDescription}</p>
+                  {image && (
+                    <div className="relative aspect-video rounded-lg overflow-hidden">
+                        <Image 
+                            src={image.src} 
+                            alt={image.alt} 
+                            fill 
+                            className="object-cover" 
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            data-ai-hint={image.hint}
+                        />
+                    </div>
+                  )}
                 </div>
               </AccordionContent>
             </AccordionItem>
