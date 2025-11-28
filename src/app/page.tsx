@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
@@ -28,7 +29,7 @@ export default async function HomePage() {
             priority
             data-ai-hint={heroImage.imageHint}
           />
-          <div className="absolute inset-0 bg-background/60 backdrop-brightness-75" />
+          <div className="absolute inset-0 bg-background/70 backdrop-brightness-50" />
         </div>
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-7xl font-bold font-headline drop-shadow-2xl animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
