@@ -65,29 +65,32 @@ const getImageData = (id: string, alt: string): ProjectImage => {
 
 export const projects: Project[] = [
   {
-    slug: 'rift-valley-vista',
-    title: 'Rift Valley Vista',
-    category: 'Landscapes',
+    slug: 'Random studio shots',
+    title: 'Random studio shots',
+    category: 'Portraits',
     shortDescription: 'Sweeping views of the Great Rift Valley at sunset.',
     fullDescription: 'This shot was taken overlooking the Great Rift Valley near Naivasha, Kenya. The vast, dramatic landscape is a testament to the raw beauty of the African continent. This series aims to capture the scale and majesty of this natural wonder.',
-    date: 'January 2024',
-    location: 'Naivasha, Kenya',
+    date: 'January 2025',
+    location: 'Nairobi, Kenya',
     equipment: 'Sony A7R IV | 24-70mm f/2.8 GM',
-    coverImage: getImageData('landscape-1', 'A view of the Great Rift Valley from a high vantage point.'),
+    coverImage: getImageData('landscape-1', 'a view shot of a bottle perfume.'),
     galleryImages: [
         getImageData('gallery-l1-1', 'Detail shot of the valley escarpment.'),
-        getImageData('gallery-l1-2', 'Wide shot of the valley floor.')
+        getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-3', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-4', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-5', 'Wide shot of the valley floor.')
     ],
   },
   {
-    slug: 'urban-contemplation',
+    slug: 'portraits',
     title: 'portraits',
     category: 'Portraits',
     shortDescription: "A man's quiet contemplation against the vibrant city nightlife of Nairobi.",
-    fullDescription: "This portrait series was shot in our studio.",
-    date: 'December 2023',
+    fullDescription: "Some of our studio portraits.",
+    date: 'October 2025',
     location: 'Nairobi, Kenya',
-    equipment: 'Fujifilm X-T4 | 56mm f/1.2',
+    equipment: 'Canon D7 | 56mm f/1.2',
     coverImage: getImageData('portrait-1', 'A man looking thoughtfully out a window with city lights reflecting.'),
     galleryImages: [
         getImageData('gallery-p1-1', "A happy man."),
