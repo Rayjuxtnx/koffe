@@ -79,10 +79,7 @@ export default function AboutPage() {
                       <h3 className="text-xl text-muted-foreground mb-6 font-headline typewriter">From Early Mornings to Lasting Moments.</h3>
                       <div className="space-y-4 text-lg text-foreground/80 leading-relaxed">
                           <p>
-                          The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
-                          </p>
-                          <p>
-                          The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
+                          At Blu Koffee Studios, every picture we take and every album we make tells a story about the clients and us we proudly create with. We capture moments brewed with passion and creativity, turning them into lasting memories. Here, every project is a reflection of who we are, inspired, expressive, and always driven by the art of storytelling.
                           </p>
                       </div>
                   </div>
