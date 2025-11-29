@@ -65,25 +65,25 @@ const getImageData = (id: string, alt: string): ProjectImage => {
 
 export const projects: Project[] = [
   {
-    slug: 'Random studio shots',
+    slug: 'rift-valley-vista',
     title: 'Random studio shots',
-    category: 'Portraits',
+    category: 'Landscapes',
     shortDescription: 'Sweeping views of the Great Rift Valley at sunset.',
     fullDescription: 'This shot was taken overlooking the Great Rift Valley near Naivasha, Kenya. The vast, dramatic landscape is a testament to the raw beauty of the African continent. This series aims to capture the scale and majesty of this natural wonder.',
-    date: 'January 2025',
-    location: 'Nairobi, Kenya',
+    date: 'January 2024',
+    location: 'Naivasha, Kenya',
     equipment: 'Sony A7R IV | 24-70mm f/2.8 GM',
-    coverImage: getImageData('landscape-1', 'a view shot of a bottle perfume.'),
+    coverImage: getImageData('landscape-1', 'A view of the Great Rift Valley from a high vantage point.'),
     galleryImages: [
         getImageData('gallery-l1-1', 'Detail shot of the valley escarpment.'),
         getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
-        getImageData('gallery-l1-3', 'Wide shot of the valley floor.'),
-        getImageData('gallery-l1-4', 'Wide shot of the valley floor.'),
-        getImageData('gallery-l1-5', 'Wide shot of the valley floor.')
+        getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-2', 'Wide shot of the valley floor.')
     ],
   },
   {
-    slug: 'portraits',
+    slug: 'urban-contemplation',
     title: 'portraits',
     category: 'Portraits',
     shortDescription: "A man's quiet contemplation against the vibrant city nightlife of Nairobi.",
