@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "site-logo",
+      "description": "The main logo for the website. Replace the imageUrl with a link to your own logo file (SVG, PNG, JPG).",
+      "imageUrl": "https://placehold.co/100x100/14141a/facc15/svg?text=Logo",
+      "imageHint": "site logo"
+    },
+    {
       "id": "profile-photo",
       "description": "A profile picture of the photographer.",
       "imageUrl": "https://images.unsplash.com/photo-1546525848-3ce03ca516f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxibGFjayUyMG1hbnxlbnwwfHx8fDE3NjQzNTkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -27,25 +33,25 @@
     {
       "id": "portrait-1",
       "description": "A man looking thoughtfully out a window with city lights reflecting.",
-      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "portrait-2",
       "description": "A wedding couple embracing.",
-      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wedding couple"
     },
     {
       "id": "portrait-3",
       "description": "A birthday cake with lit candles.",
-      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "birthday cake"
     },
     {
       "id": "street-1",
       "description": "A busy street corner in Nairobi at night, with glowing city lights.",
-      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi city"
     },
     {
