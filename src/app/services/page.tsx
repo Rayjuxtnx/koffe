@@ -15,7 +15,7 @@ const servicesData = [
         shortDescription: 'Professional headshots and portraits in a controlled studio environment.',
         longDescription: 'Our studio sessions are designed to capture your best side. We work with you to create stunning portraits for professional profiles, portfolios, or personal use. With controlled lighting and a variety of backdrops, we ensure a high-quality, polished result.',
         imageId: 'portrait-1',
-        projectSlug: 'urban-contemplation'
+        projectSlug: 'studio-portraits'
     },
     {
         Icon: Heart,
@@ -31,7 +31,7 @@ const servicesData = [
         shortDescription: 'Fun and memorable photoshoots to celebrate another year of life.',
         longDescription: 'Mark another milestone with a personalized birthday photoshoot. Whether it\'s a cake smash for a first birthday or a stylish session for your 30th, we create a fun and relaxed atmosphere to capture your personality.',
         imageId: 'portrait-3',
-        projectSlug: 'nairobi-nights'
+        projectSlug: 'birthday-cakes'
     },
     {
         Icon: Users,
@@ -39,7 +39,7 @@ const servicesData = [
         shortDescription: 'Beautifully composed photos to cherish your family\'s bond.',
         longDescription: 'Family is everything. Our family sessions are about capturing the connection and love you share. We aim for natural, heartfelt images that you will treasure for generations, whether it\'s at our studio, your home, or a favorite outdoor location.',
         imageId: 'family-photo',
-        projectSlug: 'karura-forest-walk'
+        projectSlug: 'family-photoshoot'
     },
     {
         Icon: Baby,
@@ -47,7 +47,7 @@ const servicesData = [
         shortDescription: 'Elegant photoshoots to celebrate the journey of motherhood.',
         longDescription: 'The journey to motherhood is a beautiful and transformative experience. Our maternity sessions are designed to make you feel comfortable and radiant, creating elegant and artistic images that celebrate this special time in your life.',
         imageId: 'maternity-photo',
-        projectSlug: 'rift-valley-vista'
+        projectSlug: 'baby-bump-glow'
     },
     {
         Icon: GraduationCap,
@@ -55,7 +55,7 @@ const servicesData = [
         shortDescription: 'Commemorate your academic achievements with distinguished portraits.',
         longDescription: 'You\'ve worked hard to get here. Commemorate your graduation with distinguished portraits that reflect your achievement and personality. We offer sessions on-campus or in-studio to celebrate this major life accomplishment.',
         imageId: 'graduation-photo',
-        projectSlug: 'urban-contemplation'
+        projectSlug: 'graduation-day'
     },
     {
         Icon: Sparkles,
