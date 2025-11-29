@@ -81,16 +81,16 @@ export const projects: Project[] = [
   },
   {
     slug: 'urban-contemplation',
-    title: 'Urban Contemplation',
+    title: 'portraits',
     category: 'Portraits',
     shortDescription: "A man's quiet contemplation against the vibrant city nightlife of Nairobi.",
-    fullDescription: "This portrait series was shot in downtown Nairobi, focusing on moments of introspection amidst the urban energy. Using window reflections and ambient city light, I aimed to create a sense of cinematic melancholy and connection to the environment.",
+    fullDescription: "This portrait series was shot in our studio.",
     date: 'December 2023',
     location: 'Nairobi, Kenya',
     equipment: 'Fujifilm X-T4 | 56mm f/1.2',
     coverImage: getImageData('portrait-1', 'A man looking thoughtfully out a window with city lights reflecting.'),
     galleryImages: [
-        getImageData('gallery-p1-1', "A happy dog."),
+        getImageData('gallery-p1-1', "A happy man."),
         getImageData('gallery-p1-2', 'A smiling black man.')
     ],
   },
