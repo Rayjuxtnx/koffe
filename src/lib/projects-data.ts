@@ -114,17 +114,7 @@ export const projects: Project[] = [
         getImageData('gallery-s1-1', 'A shot of Nairobi traffic from a high-rise building.'),
         getImageData('gallery-s1-2', 'The skyline of Nairobi during the day.')
     ],
-  },
-  {
-    slug: 'karura-forest-walk',
-    title: 'Karura Forest Walk',
-    category: 'Landscapes',
-    shortDescription: 'A peaceful walk through the lush greenery of Karura Forest.',
-    fullDescription: 'Karura Forest is an urban oasis, a world away from the hustle of the city. This series captures the serene beauty of its pathways, the quiet streams, and the dappled light filtering through the canopy. It is a celebration of nature within the city.',
-    date: 'November 2023',
-    location: 'Nairobi, Kenya',
-    coverImage: getImageData('karura-forest', 'A tranquil path winding through Karura Forest.'),
-    galleryImages: [],
+
   },
   {
     slug: 'timeless-vows',
@@ -132,11 +122,15 @@ export const projects: Project[] = [
     category: 'Weddings',
     shortDescription: 'Capturing the intimate moments of a lifelong promise.',
     fullDescription: 'A wedding is a collection of fleeting, beautiful moments. This series focuses on capturing the raw emotion and quiet connection between the couple, preserving the story of their day in a timeless, cinematic style.',
-    date: 'September 2023',
+    date: 'September 2025',
     location: 'Nairobi, Kenya',
     equipment: 'Canon R5 | 85mm f/1.2L',
     coverImage: getImageData('portrait-2', 'A bride and groom in a tender embrace.'),
-    galleryImages: [],
+    galleryImages: [
+        getImageData('gallery-W1-1', 'A shot of Nairobi traffic from a high-rise building.'),
+        getImageData('gallery-W1-2', 'A shot of Nairobi traffic from a high-rise building.')
+    ],
+
   },
   {
     slug: 'nakuru-streets',
