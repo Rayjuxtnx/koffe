@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="flex items-center gap-2 text-foreground mb-4">
               <Logo className="h-8 w-auto text-primary" />
-              <span className="font-bold font-headline">Blu Koffee Studios</span>
+              <span className="font-bold font-headline typewriter">Blu Koffee Studios</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Capturing moments, creating memories.
