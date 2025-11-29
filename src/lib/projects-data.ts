@@ -102,7 +102,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'nairobi-nights',
-    title: 'Nairobi Nights',
+    title: 'Grand Graduations',
     category: 'Graduation',
     shortDescription: "The vibrant, electric energy of Nairobi's streets after dark.",
     fullDescription: "Nairobi is a city that buzzes with life, and its nights are a symphony of light and movement. This collection captures the essence of the city, focusing on the vibrant city lights, bustling traffic, and the unique energy that defines Nairobi's nocturnal landscape.",
