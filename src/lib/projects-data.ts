@@ -77,9 +77,9 @@ export const projects: Project[] = [
     galleryImages: [
         getImageData('gallery-l1-1', 'Detail shot of the valley escarpment.'),
         getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
-        getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
-        getImageData('gallery-l1-2', 'Wide shot of the valley floor.'),
-        getImageData('gallery-l1-2', 'Wide shot of the valley floor.')
+        getImageData('gallery-l1-3', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-4', 'Wide shot of the valley floor.'),
+        getImageData('gallery-l1-5', 'Wide shot of the valley floor.')
     ],
   },
   {
