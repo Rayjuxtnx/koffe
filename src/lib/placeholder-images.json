@@ -27,31 +27,31 @@
     {
       "id": "landscape-3",
       "description": "Aurora borealis over a snowy landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub3J0aGVybiUyMGxpZ2h0c3xlbnwwfHx8fDE3NjQyNzcwNTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "northern lights"
     },
     {
       "id": "portrait-1",
       "description": "A man looking thoughtfully out a window with city lights reflecting.",
-      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630650945896-9718a3ad5c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwYmxhY2slMjBtYW58ZW58MHx8fHwxNzY0MzUxODkxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "portrait-2",
       "description": "A wedding couple embracing.",
-      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1529519195486-16945f0fb37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMHdlZGRpbmd8ZW58MHx8fHwxNzY0MzUyMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wedding couple"
     },
     {
       "id": "portrait-3",
       "description": "A birthday cake with lit candles.",
-      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY0MzUyOTk4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "birthday cake"
     },
     {
       "id": "street-1",
       "description": "A busy street corner in Nairobi at night, with glowing city lights.",
-      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYWlyb2JpJTIwY2l0eXxlbnwwfHx8fDE3NjQzNTIwMTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "nairobi city"
     },
     {
@@ -125,6 +125,30 @@
       "description": "A placeholder for your own custom image. Replace the imageUrl with a link to your photo.",
       "imageUrl": "https://placehold.co/800x600/14141a/facc15/png?text=Your+Image+Here",
       "imageHint": "custom image"
+    },
+    {
+      "id": "wedding-1",
+      "description": "A close-up of a bride's bouquet.",
+      "imageUrl": "https://images.unsplash.com/photo-1565809794294-1a92e8a93946?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwYm91cXVldHxlbnwwfHx8fDE3NjQ0NTI0NDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding bouquet"
+    },
+    {
+      "id": "wedding-2",
+      "description": "A couple exchanging rings during a wedding ceremony.",
+      "imageUrl": "https://images.unsplash.com/photo-1510076857177-7472076807b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcmluZ3N8ZW58MHx8fHwxNzY0NDUyNDcyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding rings"
+    },
+    {
+      "id": "graduation-1",
+      "description": "A group of graduates tossing their caps in the air.",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFkdWF0aW9uJTIwY2Fwc3xlbnwwfHx8fDE3NjQ0NTI1MTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation caps"
+    },
+    {
+      "id": "graduation-2",
+      "description": "A close-up of a graduation diploma.",
+      "imageUrl": "https://images.unsplash.com/photo-1627855322971-d64e45c43d83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFkdWF0aW9uJTIwZGlwbG9tYXxlbnwwfHx8fDE3NjQ0NTI1Mzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation diploma"
     }
   ]
 }
