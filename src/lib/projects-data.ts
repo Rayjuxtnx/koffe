@@ -114,7 +114,6 @@ export const projects: Project[] = [
         getImageData('gallery-s1-1', 'A shot of Nairobi traffic from a high-rise building.'),
         getImageData('gallery-s1-2', 'The skyline of Nairobi during the day.')
     ],
-
   },
   {
     slug: 'timeless-vows',
@@ -129,7 +128,7 @@ export const projects: Project[] = [
     galleryImages: [
         getImageData('gallery-W1-1', 'A shot of Nairobi traffic from a high-rise building.'),
         getImageData('gallery-W1-2', 'A shot of Nairobi traffic from a high-rise building.')
-    ],
+   ],
 
   },
   {
