@@ -74,7 +74,7 @@ export default function AboutPage() {
                   </div>
                   <div className="md:col-span-3">
                       <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-                          The Story of Blu Koffee
+                          what we do
                       </h2>
                       <h3 className="text-xl text-muted-foreground mb-6 font-headline typewriter">From Early Mornings to Lasting Moments.</h3>
                       <div className="space-y-4 text-lg text-foreground/80 leading-relaxed">
