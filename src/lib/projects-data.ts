@@ -91,7 +91,10 @@ export const projects: Project[] = [
     coverImage: getImageData('portrait-1', 'A man looking thoughtfully out a window with city lights reflecting.'),
     galleryImages: [
         getImageData('gallery-p1-1', "A happy man."),
-        getImageData('gallery-p1-2', 'A smiling black man.')
+        getImageData('gallery-p1-2', 'A smiling black man.'),
+        getImageData('gallery-p1-3', 'A smiling image.'),
+        getImageData('gallery-p1-4', 'A smiling image.'),
+        getImageData('gallery-p1-5', 'A smiling image.')
     ],
   },
   {
