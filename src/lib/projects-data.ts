@@ -12,7 +12,7 @@ export type ProjectImage = {
 export type Project = {
   slug: string;
   title: string;
-  category: 'Portraits' | 'Landscapes' | 'Street' | 'Weddings';
+  category: 'Portraits' | 'Random shots' | 'Graduation' | 'Weddings' | 'Birthdays';
   shortDescription: string;
   fullDescription: string;
   date: string;
@@ -67,7 +67,7 @@ export const projects: Project[] = [
   {
     slug: 'rift-valley-vista',
     title: 'Random studio shots',
-    category: 'Landscapes',
+    category: 'Random shots',
     shortDescription: 'Just random shots in the studio.',
     fullDescription: 'These are random shots taken in our studio.',
     date: 'January 2025',
@@ -103,7 +103,7 @@ export const projects: Project[] = [
   {
     slug: 'nairobi-nights',
     title: 'Nairobi Nights',
-    category: 'Street',
+    category: 'Graduation',
     shortDescription: "The vibrant, electric energy of Nairobi's streets after dark.",
     fullDescription: "Nairobi is a city that buzzes with life, and its nights are a symphony of light and movement. This collection captures the essence of the city, focusing on the vibrant city lights, bustling traffic, and the unique energy that defines Nairobi's nocturnal landscape.",
     date: 'July 2023',
@@ -134,7 +134,7 @@ export const projects: Project[] = [
   {
     slug: 'nakuru-streets',
     title: 'Nakuru Streets',
-    category: 'Street',
+    category: 'Graduation',
     shortDescription: 'The dynamic flow of daily life on the streets of Nakuru.',
     fullDescription: "This series captures the everyday rhythm of Nakuru. From the bustling market stalls to the quiet side streets, these images document the city's unique character and the stories of the people who call it home.",
     date: 'May 2023',
