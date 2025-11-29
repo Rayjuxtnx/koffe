@@ -107,10 +107,10 @@ export default function AboutPage() {
                       </h2>
                       <div className="space-y-4 text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
                           <p>
-                          The name &quot;Blu Koffee&quot; was born during the quiet, early morning hours—that magical time just before sunrise, often called the 'blue hour.' With a warm cup of coffee in hand, I found that this was when my creativity was at its peak. It was in these moments of peace and reflection that I honed my craft, dreaming up the photoshoots that would soon become cherished memories for my clients.
+                          At Blu Koffee Studios, our inspiration comes from the journey itself, the photos we captured yesterday, the projects still in progress, and the late-night hours when new ideas refuse to sleep. Creativity often strikes when we’re reviewing a moment we’ve frozen in time or pushing through a design that isn’t quite complete yet. It’s in those quiet, determined moments that we discover what comes next.
                           </p>
                           <p>
-                          The studio is built on that same principle: taking a simple, quiet moment and turning it into something beautiful and lasting. It’s about more than just taking pictures; it’s about capturing the feeling of a place, the emotion of an event, and the unique story of each person I work with. Just like that first sip of morning coffee, my goal is to create an experience that is both comforting and inspiring.
+                          Every frame sparks a new thought, every challenge encourages us to grow, and every client’s story pushes our imagination further. We believe the work we’ve done fuels the work we’re about to create—an ongoing cycle of passion, dedication, and vision. Just like that final burst of energy late at night, we turn inspiration into art.
                           </p>
                       </div>
                   </div>
