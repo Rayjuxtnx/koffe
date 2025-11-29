@@ -21,15 +21,6 @@ const fontBody = Lato({
   variable: '--font-body',
 });
 
-// export const metadata: Metadata = {
-//   title: {
-//     default: 'Blu Koffee Studios',
-//     template: '%s | Blu Koffee Studios',
-//   },
-//   description: 'A minimal, cinematic photography portfolio.',
-//   icons: [{ rel: 'icon', url: '/favicon.ico' }],
-// };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -53,6 +44,21 @@ export default function RootLayout({
           <title>Blu Koffee Studios</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="description" content="A minimal, cinematic photography portfolio." />
+           <meta name="keywords" content="photography, photographer, portfolio, cinematic photography, minimal photography, Blu Koffee Studios, Nairobi photographer, Kenya photographer, African photography, portrait photography, landscape photography, street photography, wedding photography, event photography, professional photographer, creative photography, visual storytelling, photo studio, Naivasha photography, Nakuru photography, studio portraits, headshots, proposal photography, engagement photos, birthday photoshoot, family photos, maternity photography, baby bump photos, graduation portraits, commercial photography, freelance photographer, art photography, photo gallery, book a photographer, contact photographer, hire photographer, best photographers in Nairobi, kenyan wedding photographer, african landscape photos, urban photography, lifestyle photography, Nairobi, Kenya, Africa" />
+          <meta name="author" content="Blu Koffee Studios" />
+          <meta name="creator" content="Blu Koffee Studios" />
+          <meta name="publisher" content="Blu Koffee Studios" />
+          <meta property="og:title" content="Blu Koffee Studios" />
+          <meta property="og:description" content="A minimal, cinematic photography portfolio specializing in portrait, landscape, and wedding photography." />
+          <meta property="og:url" content="https://blu-koffee-studios.com" />
+          <meta property="og:site_name" content="Blu Koffee Studios" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Blu Koffee Studios" />
+          <meta name="twitter:description" content="A minimal, cinematic photography portfolio." />
+          <meta name="twitter:creator" content="@blukoffeestudios" />
+          <meta name="robots" content="index, follow" />
       </head>
       <body
         className={cn(
