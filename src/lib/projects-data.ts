@@ -140,7 +140,10 @@ export const projects: Project[] = [
     date: 'May 2025',
     location: 'Nairobi, Kenya',
     coverImage: getImageData('street-2', 'A busy street scene in Nakuru, Kenya.'),
-    galleryImages: [],
+    galleryImages: [
+        getImageData('gallery-b1-1', 'A shot of Nairobi traffic from a high-rise building.'),
+        getImageData('gallery-b1-1', 'A shot of Nairobi traffic from a high-rise building.')
+    ],    
   },
 ];
 
