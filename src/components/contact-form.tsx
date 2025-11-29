@@ -9,6 +9,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { useToast } from '@/hooks/use-toast';
 import { useState } from 'react';
 import { Loader2 } from 'lucide-react';
+import Link from 'next/link';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -44,7 +45,15 @@ export function ContactForm() {
       if (response.ok) {
         toast({
           title: "Message Sent!",
-          description: "Thanks for reaching out. I'll get back to you as soon as possible.",
+          description: (
+            <>
+              Thanks for reaching out. I'll get back to you soon. In the meantime,{' '}
+              <Link href="/portfolio" className="underline hover:text-primary">
+                feel free to explore my work
+              </Link>
+              .
+            </>
+          ),
         });
         form.reset();
       } else {

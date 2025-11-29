@@ -22,6 +22,7 @@ export default function PortfolioPage() {
                 project={project} 
                 onClick={() => setSelectedProject(project)}
                 index={index} 
+                isLink
               />
             </div>
           ))}

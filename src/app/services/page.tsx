@@ -14,49 +14,56 @@ const servicesData = [
         title: 'Studio Portraits',
         shortDescription: 'Professional headshots and portraits in a controlled studio environment.',
         longDescription: 'Our studio sessions are designed to capture your best side. We work with you to create stunning portraits for professional profiles, portfolios, or personal use. With controlled lighting and a variety of backdrops, we ensure a high-quality, polished result.',
-        imageId: 'portrait-1'
+        imageId: 'portrait-1',
+        projectSlug: 'urban-contemplation'
     },
     {
         Icon: Heart,
         title: 'Weddings & Proposals',
         shortDescription: 'Capturing the magic of your special day with timeless photos.',
         longDescription: 'From the intimate moments of a proposal to the grand celebration of a wedding, we are there to document your love story. Our style is cinematic and emotional, focusing on the authentic interactions that make your day unique.',
-        imageId: 'portrait-2'
+        imageId: 'portrait-2',
+        projectSlug: 'timeless-vows'
     },
     {
         Icon: Cake,
         title: 'Birthdays',
         shortDescription: 'Fun and memorable photoshoots to celebrate another year of life.',
         longDescription: 'Mark another milestone with a personalized birthday photoshoot. Whether it\'s a cake smash for a first birthday or a stylish session for your 30th, we create a fun and relaxed atmosphere to capture your personality.',
-        imageId: 'portrait-3'
+        imageId: 'portrait-3',
+        projectSlug: 'nairobi-nights'
     },
     {
         Icon: Users,
         title: 'Family Photos',
         shortDescription: 'Beautifully composed photos to cherish your family\'s bond.',
         longDescription: 'Family is everything. Our family sessions are about capturing the connection and love you share. We aim for natural, heartfelt images that you will treasure for generations, whether it\'s at our studio, your home, or a favorite outdoor location.',
-        imageId: 'family-photo'
+        imageId: 'family-photo',
+        projectSlug: 'karura-forest-walk'
     },
     {
         Icon: Baby,
         title: 'Maternity & Baby Bump',
         shortDescription: 'Elegant photoshoots to celebrate the journey of motherhood.',
         longDescription: 'The journey to motherhood is a beautiful and transformative experience. Our maternity sessions are designed to make you feel comfortable and radiant, creating elegant and artistic images that celebrate this special time in your life.',
-        imageId: 'maternity-photo'
+        imageId: 'maternity-photo',
+        projectSlug: 'rift-valley-vista'
     },
     {
         Icon: GraduationCap,
         title: 'Graduations',
         shortDescription: 'Commemorate your academic achievements with distinguished portraits.',
         longDescription: 'You\'ve worked hard to get here. Commemorate your graduation with distinguished portraits that reflect your achievement and personality. We offer sessions on-campus or in-studio to celebrate this major life accomplishment.',
-        imageId: 'graduation-photo'
+        imageId: 'graduation-photo',
+        projectSlug: 'urban-contemplation'
     },
     {
         Icon: Sparkles,
         title: 'And More...',
         shortDescription: 'Have a unique event? Contact us for a custom photography package.',
         longDescription: 'Don\'t see what you\'re looking for? We love creative challenges! From corporate events and product photography to editorial shoots and passion projects, contact us to discuss your vision, and we\'ll create a custom package just for you.',
-        imageId: 'landscape-3'
+        imageId: 'landscape-3',
+        projectSlug: 'contact'
     }
 ];
 
@@ -82,8 +89,12 @@ export default function ServicesPage() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {services.map(({ Icon, title, shortDescription, image }) => (
-          <div key={title} className="group relative aspect-w-4 aspect-h-5 rounded-lg overflow-hidden shadow-lg bg-card">
+        {services.map(({ Icon, title, shortDescription, image, projectSlug }) => (
+          <Link 
+            key={title} 
+            href={projectSlug === 'contact' ? '/contact' : `/portfolio/${projectSlug}`} 
+            className="group relative aspect-w-4 aspect-h-5 rounded-lg overflow-hidden shadow-lg bg-card block"
+          >
             {image && (
                 <Image 
                     src={image.src} 
@@ -104,7 +115,7 @@ export default function ServicesPage() {
                     <p className="text-foreground/80 leading-relaxed text-sm">{shortDescription}</p>
                 </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
