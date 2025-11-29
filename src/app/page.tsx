@@ -47,7 +47,7 @@ export default function HomePage() {
             Blu Koffee Studios
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80 drop-shadow-lg animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            A minimal, cinematic photography portfolio. Welcome to a curated collection of moments, captured in time.
+            Where light, story, and soul converge. We don't just take photos; we preserve the poetry of a fleeting moment.
           </p>
           <Button asChild size="lg" className="mt-8 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <Link href="/portfolio">
