@@ -129,18 +129,6 @@ export const projects: Project[] = [
         getImageData('gallery-W1-1', 'A shot of Nairobi traffic from a high-rise building.'),
         getImageData('gallery-W1-2', 'A shot of Nairobi traffic from a high-rise building.')
    ],
-
-  },
-  {
-    slug: 'nakuru-streets',
-    title: 'Nakuru Streets',
-    category: 'Graduation',
-    shortDescription: 'The dynamic flow of daily life on the streets of Nakuru.',
-    fullDescription: "This series captures the everyday rhythm of Nakuru. From the bustling market stalls to the quiet side streets, these images document the city's unique character and the stories of the people who call it home.",
-    date: 'May 2023',
-    location: 'Nakuru, Kenya',
-    coverImage: getImageData('street-2', 'A busy street scene in Nakuru, Kenya.'),
-    galleryImages: [],
   },
 ];
 
