@@ -103,7 +103,7 @@ export default function AboutPage() {
               <div className="bg-card/50 backdrop-blur-sm p-8 md:p-12 rounded-lg">
                   <div className="text-center">
                       <h2 className="text-4xl md:text-5xl font-bold font-headline mb-4 flex items-center justify-center gap-4">
-                          <Coffee className="h-10 w-10 text-primary" /> <span className="typewriter">The Story of Blu Koffee</span>
+                          <Coffee className="h-10 w-10 text-primary" /> <span className="typewriter">our inspiration</span>
                       </h2>
                       <div className="space-y-4 text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
                           <p>
