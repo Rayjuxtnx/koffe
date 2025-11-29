@@ -129,6 +129,18 @@ export const projects: Project[] = [
         getImageData('gallery-W1-1', 'A shot of Nairobi traffic from a high-rise building.'),
         getImageData('gallery-W1-2', 'A shot of Nairobi traffic from a high-rise building.')
    ],
+
+  },
+  {
+    slug: 'nakuru-streets',
+    title: 'birthdays shots',
+    category: 'Birthdays',
+    shortDescription: 'These are shots taken for birthday babies.',
+    fullDescription: "These are shots taken for birthday babies.",
+    date: 'May 2025',
+    location: 'Nairobi, Kenya',
+    coverImage: getImageData('street-2', 'A busy street scene in Nakuru, Kenya.'),
+    galleryImages: [],
   },
 ];
 
