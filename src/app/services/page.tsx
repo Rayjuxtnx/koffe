@@ -15,7 +15,7 @@ const servicesData = [
         shortDescription: 'Professional headshots and portraits in a controlled studio environment.',
         longDescription: 'Our studio sessions are designed to capture your best side. We work with you to create stunning portraits for professional profiles, portfolios, or personal use. With controlled lighting and a variety of backdrops, we ensure a high-quality, polished result.',
         imageId: 'portrait-1',
-        projectSlug: 'studio-portraits'
+        projectSlug: 'urban-contemplation'
     },
     {
         Icon: Heart,
@@ -31,7 +31,7 @@ const servicesData = [
         shortDescription: 'Fun and memorable photoshoots to celebrate another year of life.',
         longDescription: 'Mark another milestone with a personalized birthday photoshoot. Whether it\'s a cake smash for a first birthday or a stylish session for your 30th, we create a fun and relaxed atmosphere to capture your personality.',
         imageId: 'portrait-3',
-        projectSlug: 'birthday-cakes'
+        projectSlug: 'nakuru-streets'
     },
     {
         Icon: GraduationCap,
@@ -39,7 +39,7 @@ const servicesData = [
         shortDescription: 'Commemorate your academic achievements with distinguished portraits.',
         longDescription: 'You\'ve worked hard to get here. Commemorate your graduation with distinguished portraits that reflect your achievement and personality. We offer sessions on-campus or in-studio to celebrate this major life accomplishment.',
         imageId: 'graduation-photo',
-        projectSlug: 'graduation-day'
+        projectSlug: 'nairobi-nights'
     },
     {
         Icon: Sparkles,
