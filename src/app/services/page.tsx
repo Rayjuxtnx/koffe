@@ -34,22 +34,6 @@ const servicesData = [
         projectSlug: 'birthday-cakes'
     },
     {
-        Icon: Users,
-        title: 'Family Photos',
-        shortDescription: 'Beautifully composed photos to cherish your family\'s bond.',
-        longDescription: 'Family is everything. Our family sessions are about capturing the connection and love you share. We aim for natural, heartfelt images that you will treasure for generations, whether it\'s at our studio, your home, or a favorite outdoor location.',
-        imageId: 'family-photo',
-        projectSlug: 'family-photoshoot'
-    },
-    {
-        Icon: Baby,
-        title: 'Maternity & Baby Bump',
-        shortDescription: 'Elegant photoshoots to celebrate the journey of motherhood.',
-        longDescription: 'The journey to motherhood is a beautiful and transformative experience. Our maternity sessions are designed to make you feel comfortable and radiant, creating elegant and artistic images that celebrate this special time in your life.',
-        imageId: 'maternity-photo',
-        projectSlug: 'baby-bump-glow'
-    },
-    {
         Icon: GraduationCap,
         title: 'Graduations',
         shortDescription: 'Commemorate your academic achievements with distinguished portraits.',
